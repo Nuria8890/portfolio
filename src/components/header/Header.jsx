@@ -3,7 +3,7 @@ import "@/styles/layout/Header.scss";
 function Header() {
   return (
     <header>
-      <nav className="header__nav">
+      <nav>
         <li className="header__nav__list">
           <ul>Sobre mi</ul>
           <ul>Proyectos</ul>
