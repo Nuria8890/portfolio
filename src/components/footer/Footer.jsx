@@ -1,7 +1,11 @@
-import React from "react";
+import "@/styles/layout/Footer.scss";
 
 function Footer() {
-  return <footer>Este es el footer</footer>;
+  return (
+    <footer className="footer">
+      <p className="footer__text">made by NuriaCD 🐜</p>
+    </footer>
+  );
 }
 
 export default Footer;
