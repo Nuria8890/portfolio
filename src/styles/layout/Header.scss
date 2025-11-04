@@ -1,0 +1,14 @@
+.header {
+  &__nav {
+    &__list {
+      padding: 2px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-around;
+      background-color: lightgray;
+      ul {
+        padding: 5px;
+      }
+    }
+  }
+}
