@@ -1,0 +1,56 @@
+.section {
+  background-color: skyblue;
+  height: 95vh;
+
+  &__mobile {
+    background-color: black;
+    width: 225px;
+    height: 400px;
+    border-radius: 6%;
+    box-shadow: 7px -7px 5px grey;
+    position: relative;
+    top: 12%;
+    left: 15%;
+    transform: rotate(-13deg);
+    &__line {
+      &-top {
+        background-color: white;
+        width: 30px;
+        height: 5px;
+        border-radius: 20%;
+        position: relative;
+        top: 2%;
+        left: 40%;
+      }
+      &-bottom {
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: 55%;
+        left: 42%;
+      }
+    }
+    &__text {
+      color: whitesmoke;
+      position: relative;
+      top: 35%;
+      text-align: center;
+      font-size: 35px;
+    }
+    @media (min-width: 1024px) {
+      top: 20%;
+      left: 10%;
+      transform: rotate(-15deg);
+    }
+  }
+}
+
+.footerWip {
+  height: 5vh;
+  background-color: lightgray;
+  &__text {
+    padding: 5px;
+  }
+}
