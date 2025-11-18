@@ -2,7 +2,7 @@ import "@/styles/layout/Wip.scss";
 
 function wip() {
   return (
-    <>
+    <div className="screen">
       <main className="wip">
         <article className="wip__mobile">
           <div className="wip__mobile__line-top"></div>
@@ -26,7 +26,7 @@ function wip() {
       <footer className="footerWip">
         <p className="footer__text">made by NuriaCD 🐜</p>
       </footer>
-    </>
+    </div>
   );
 }
 

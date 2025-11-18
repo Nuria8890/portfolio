@@ -1,5 +1,8 @@
+.screen {
+  background: no-repeat center/100% url("@/assets/background_cloud.webp");
+}
+
 .wip {
-  background-color: skyblue;
   height: 95vh;
   display: flex;
   justify-content: center;
@@ -96,7 +99,6 @@
 
 .footerWip {
   height: 5vh;
-  background-color: lightgray;
   &__text {
     padding: 5px;
   }
