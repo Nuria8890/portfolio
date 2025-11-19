@@ -1,15 +1,14 @@
 import "@/styles/App.scss";
-import Wip from "@/components/wip/Wip";
+import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
 function App() {
   return (
-    <div className="screen">
-      <main>
-        <Wip />
-      </main>
+    <>
+      <Header />
+      <main></main>
       <Footer />
-    </div>
+    </>
   );
 }
 
