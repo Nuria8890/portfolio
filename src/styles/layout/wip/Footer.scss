@@ -1,0 +1,14 @@
+.footerWip {
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__icons {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+  }
+}
