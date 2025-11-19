@@ -1,9 +1,11 @@
 import "@/styles/layout/Wip.scss";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function wip() {
   return (
     <div className="screen">
-      <main className="wip">
+      <section className="wip">
         <article className="wip__mobile">
           <div className="wip__mobile__line-top"></div>
           <h1 className="wip__mobile__text">
@@ -22,9 +24,13 @@ function wip() {
           </div>
           <div className="wip__desktop__line-bottom"></div>
         </article>
-      </main>
+      </section>
       <footer className="footerWip">
-        <p className="footer__text">made by NuriaCD 🐜</p>
+        <p>made by NuriaCD 🐜</p>
+        <div className="footerWip__icons">
+          <FaGithub className="footerWip__icons__icon" />
+          <FaLinkedin className="footerWip__icons__icon" />
+        </div>
       </footer>
     </div>
   );

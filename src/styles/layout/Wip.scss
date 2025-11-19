@@ -1,5 +1,5 @@
 .screen {
-  background: no-repeat center/100% url("@/assets/background_cloud.webp");
+  background: center/100% url("@/assets/background_cloud.webp");
 }
 
 .wip {
@@ -99,7 +99,15 @@
 
 .footerWip {
   height: 5vh;
-  &__text {
-    padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__icons {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
   }
 }
