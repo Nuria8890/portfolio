@@ -1,8 +1,14 @@
-.footer {
-  padding: 2px;
-  margin-top: 10px;
-  background-color: lightgray;
-  &__text {
-    padding: 5px;
+.footerWip {
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__icons {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
   }
 }
