@@ -1,10 +1,10 @@
 import "@/styles/layout/header/Header.scss";
 import Menu_hamburguesa from "./Menu_hamburguesa";
 
-function Header() {
+function Header({ toggleMenu }) {
   return (
     <header className="header">
-      <Menu_hamburguesa />
+      <Menu_hamburguesa toggleMenu={toggleMenu} />
       {/* <nav className="header__nav">
         <li className="header__nav__list">
           <ul>Sobre mi</ul>
