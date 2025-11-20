@@ -8,7 +8,6 @@ function App() {
 
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
-    console.log("menuIsOpen es:", menuIsOpen);
   };
 
   return (

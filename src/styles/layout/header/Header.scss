@@ -1,9 +1,9 @@
 .header {
-  height: 5vh;
   background-color: lightgray;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 5px;
   @media (min-width: 1024px) {
     justify-content: center;
     &__nav {

@@ -7,7 +7,7 @@ function Menu_hamburguesa({ toggleMenu, menuIsOpen }) {
     <>
       <CgMenuRound className="menu__icon__open" onClick={toggleMenu} />
 
-      <nav className={`menu ${menuIsOpen ? "menu__open" : "menu__close"}`}>
+      <nav className={`${menuIsOpen ? "menu__open" : "menu__close"}`}>
         <IoIosCloseCircleOutline
           className="menu__icon__close"
           onClick={toggleMenu}
