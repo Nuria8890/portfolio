@@ -13,9 +13,9 @@ function Menu_hamburguesa({ toggleMenu, menuIsOpen }) {
           onClick={toggleMenu}
         />
         <li>
-          <ul>Sobre mi</ul>
-          <ul>Proyectos</ul>
-          <ul>Contacta</ul>
+          <ul className="menu__nav-element">Sobre mi</ul>
+          <ul className="menu__nav-element">Proyectos</ul>
+          <ul className="menu__nav-element">Contacta</ul>
         </li>
       </nav>
     </>
