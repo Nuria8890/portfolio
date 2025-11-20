@@ -1,15 +1,17 @@
-import "@/styles/layout/Header.scss";
+import "@/styles/layout/header/Header.scss";
+import Menu_hamburguesa from "./Menu_hamburguesa";
 
 function Header() {
   return (
     <header className="header">
-      <nav className="header__nav">
+      <Menu_hamburguesa />
+      {/* <nav className="header__nav">
         <li className="header__nav__list">
           <ul>Sobre mi</ul>
           <ul>Proyectos</ul>
           <ul>Contacta</ul>
         </li>
-      </nav>
+      </nav> */}
     </header>
   );
 }

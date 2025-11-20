@@ -1,0 +1,21 @@
+.header {
+  height: 5vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @media (min-width: 1024px) {
+    justify-content: center;
+    &__nav {
+      width: 100%;
+      &__list {
+        display: flex;
+        justify-content: space-around;
+
+        ul {
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+}

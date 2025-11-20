@@ -1,0 +1,9 @@
+.menu {
+  &__icon {
+    width: 25px;
+    height: 25px;
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+}
