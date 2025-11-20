@@ -8,11 +8,12 @@ function App() {
 
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
+    console.log("menuIsOpen es:", menuIsOpen);
   };
 
   return (
     <>
-      <Header toggleMenu={toggleMenu} />
+      <Header toggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
       <main></main>
       <Footer />
     </>

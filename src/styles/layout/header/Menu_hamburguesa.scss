@@ -6,4 +6,10 @@
       display: none;
     }
   }
+  &__open {
+    background-color: green;
+  }
+  &__close {
+    display: none;
+  }
 }
