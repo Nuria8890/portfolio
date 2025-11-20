@@ -15,7 +15,7 @@ function Menu_hamburguesa({ toggleMenu, menuIsOpen }) {
           className="menu__icon__close"
           onClick={toggleMenu}
         />
-        <Nav_elements scssClass={"menu__nav-element"} />
+        <Nav_elements classElement={"menu__nav-element"} />
       </nav>
     </>
   );

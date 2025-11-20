@@ -1,9 +1,9 @@
-function Nav_elements({ scssClass }) {
+function Nav_elements({ classList, classElement }) {
   const elements = ["Sobre mi", "Proyectos", "Contacta"];
   return (
-    <li>
+    <li className={classList}>
       {elements.map((element) => (
-        <ul className={scssClass} key={element}>
+        <ul className={classElement} key={element}>
           {element}
         </ul>
       ))}
