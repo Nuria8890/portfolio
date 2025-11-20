@@ -4,6 +4,7 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 
 function Menu_hamburguesa({ toggleMenu, menuIsOpen }) {
   const openCloseMenu = menuIsOpen ? "menu__open" : "menu__close";
+  const elements = ["Sobre mi", "Proyectos", "Contacta"];
   return (
     <>
       <CgMenuRound className="menu__icon__open" onClick={toggleMenu} />
@@ -14,9 +15,11 @@ function Menu_hamburguesa({ toggleMenu, menuIsOpen }) {
           onClick={toggleMenu}
         />
         <li>
-          <ul className="menu__nav-element">Sobre mi</ul>
-          <ul className="menu__nav-element">Proyectos</ul>
-          <ul className="menu__nav-element">Contacta</ul>
+          {elements.map((element) => (
+            <ul className="menu__nav-element" key={element}>
+              {element}
+            </ul>
+          ))}
         </li>
       </nav>
     </>
