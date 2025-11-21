@@ -17,6 +17,9 @@ function Menu_hamburguesa({ handleToggleMenu, menuIsOpen }) {
         />
         <Nav_elements classElement={"menu__nav-element"} />
       </nav>
+      {menuIsOpen && (
+        <div className="menu__open__bg" onClick={handleToggleMenu}></div>
+      )}
     </>
   );
 }
