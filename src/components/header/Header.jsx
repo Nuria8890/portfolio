@@ -8,6 +8,7 @@ function Header({ handleToggleMenu, menuIsOpen }) {
       <Menu_hamburguesa
         handleToggleMenu={handleToggleMenu}
         menuIsOpen={menuIsOpen}
+        classList={"header__nav__list"}
       />
       <nav className="header__nav">
         <Nav_elements
