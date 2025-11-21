@@ -1,4 +1,4 @@
-#root {
+.root {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100dvh;
@@ -7,4 +7,19 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+.mode {
+  &__light {
+    color: purple;
+    a {
+      color: purple;
+    }
+  }
+  &__dark {
+    color: white;
+    a {
+      color: white;
+    }
+  }
 }

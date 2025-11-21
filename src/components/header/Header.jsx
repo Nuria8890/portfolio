@@ -5,14 +5,14 @@ import Nav_elements from "./Nav_elements";
 import { FaMoon } from "react-icons/fa";
 import { MdSunny } from "react-icons/md";
 
-function Header({ handleToggleMenu, menuIsOpen }) {
+function Header({ handleToggleMenu, menuIsOpen, handleToogleMode }) {
   return (
     <header className="header">
       <img className="header__logo" src={logo} alt="logo clouds" />
 
-      <div className="mood">
-        <FaMoon />
-        <MdSunny />
+      <div className="mode">
+        <MdSunny onClick={handleToogleMode} />
+        <FaMoon onClick={handleToogleMode} />
       </div>
       <Menu_hamburguesa
         handleToggleMenu={handleToggleMenu}

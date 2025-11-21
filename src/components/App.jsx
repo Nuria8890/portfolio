@@ -6,16 +6,27 @@ import { useState } from "react";
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
+  const [isModeLight, setIsModeLight] = useState(true);
+
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
   };
 
+  const toggleMode = () => {
+    setIsModeLight(!isModeLight);
+    console.log("click en modo claro/oscuro");
+  };
+
   return (
-    <>
-      <Header handleToggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
+    <div className={`root ${isModeLight ? "mode__light" : "mode__dark"}`}>
+      <Header
+        handleToggleMenu={toggleMenu}
+        menuIsOpen={menuIsOpen}
+        handleToogleMode={toggleMode}
+      />
       <main></main>
       <Footer />
-    </>
+    </div>
   );
 }
 
