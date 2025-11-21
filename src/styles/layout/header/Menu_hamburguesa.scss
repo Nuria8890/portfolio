@@ -20,19 +20,28 @@
     top: 0;
     right: 0;
     height: 100vh;
-    width: 30%;
+    width: 6rem;
     background-color: green;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
     padding: 5px;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+
     @media (min-width: 1024px) {
       display: none;
     }
   }
   &__close {
-    display: none;
+    position: fixed;
+    visibility: hidden;
+    transform: translateX(100%);
+
+    @media (min-width: 1024px) {
+      display: none;
+    }
   }
   &__nav-element {
     margin-top: 10px;
