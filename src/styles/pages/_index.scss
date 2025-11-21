@@ -11,12 +11,14 @@
 
 .mode {
   &__light {
-    color: purple;
+    background-color: lightblue;
+    color: black;
     a {
-      color: purple;
+      color: black;
     }
   }
   &__dark {
+    background-color: darkblue;
     color: white;
     a {
       color: white;
