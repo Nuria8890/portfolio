@@ -2,10 +2,13 @@ import "@/styles/layout/header/Header.scss";
 import Menu_hamburguesa from "./Menu_hamburguesa";
 import Nav_elements from "./Nav_elements";
 
-function Header({ toggleMenu, menuIsOpen }) {
+function Header({ handleToggleMenu, menuIsOpen }) {
   return (
     <header className="header">
-      <Menu_hamburguesa toggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
+      <Menu_hamburguesa
+        handleToggleMenu={handleToggleMenu}
+        menuIsOpen={menuIsOpen}
+      />
       <nav className="header__nav">
         <Nav_elements
           classList={"header__nav__list"}

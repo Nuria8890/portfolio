@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Header toggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
+      <Header handleToggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
       <main></main>
       <Footer />
     </>
