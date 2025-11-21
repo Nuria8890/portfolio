@@ -1,4 +1,13 @@
 .menu {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 5px;
   &__icon {
     &__open {
       width: 25px;
@@ -16,19 +25,10 @@
     }
   }
   &__open {
-    position: fixed;
-    top: 0;
-    right: 0;
     z-index: 2;
-    height: 100vh;
     width: 6rem;
     background-color: green;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 20px;
-    padding: 5px;
-    transition: transform 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
     transform: translateX(0);
     &__bg {
       position: fixed;
@@ -44,18 +44,9 @@
     }
   }
   &__close {
-    position: fixed;
-    height: 100vh;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 20px;
-    padding: 5px;
     visibility: hidden;
     transform: translateX(100%);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
     @media (min-width: 1024px) {
       display: none;
