@@ -1,10 +1,19 @@
 import "@/styles/layout/header/Header.scss";
+import logo from "@/assets/background_cloud.webp";
 import Menu_hamburguesa from "./Menu_hamburguesa";
 import Nav_elements from "./Nav_elements";
+import { FaMoon } from "react-icons/fa";
+import { MdSunny } from "react-icons/md";
 
 function Header({ handleToggleMenu, menuIsOpen }) {
   return (
     <header className="header">
+      <img className="header__logo" src={logo} alt="logo clouds" />
+
+      <div className="mood">
+        <FaMoon />
+        <MdSunny />
+      </div>
       <Menu_hamburguesa
         handleToggleMenu={handleToggleMenu}
         menuIsOpen={menuIsOpen}
