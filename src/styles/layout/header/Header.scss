@@ -49,6 +49,7 @@
 }
 
 .mode {
+  cursor: pointer;
   @media (min-width: 1024px) {
     order: 2;
   }

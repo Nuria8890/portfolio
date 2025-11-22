@@ -23,6 +23,7 @@ function App() {
         handleToggleMenu={toggleMenu}
         menuIsOpen={menuIsOpen}
         handleToogleMode={toggleMode}
+        isModeLight={isModeLight}
       />
       <main></main>
       <Footer />
