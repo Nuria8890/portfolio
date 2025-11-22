@@ -13,8 +13,8 @@
   padding: 5px;
   &__icon {
     &__open {
-      width: 25px;
-      height: 25px;
+      width: 2rem;
+      height: 2rem;
       cursor: pointer;
       // position: relative;
       @media (min-width: 1024px) {
@@ -22,8 +22,8 @@
       }
     }
     &__close {
-      width: 25px;
-      height: 25px;
+      width: 2rem;
+      height: 2rem;
       cursor: pointer;
     }
   }

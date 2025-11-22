@@ -17,9 +17,9 @@ function Header({
 
       <div className="mode">
         {isModeLight ? (
-          <FaMoon onClick={handleToogleMode} />
+          <FaMoon className="mode__icon" onClick={handleToogleMode} />
         ) : (
-          <MdSunny onClick={handleToogleMode} />
+          <MdSunny className="mode__icon" onClick={handleToogleMode} />
         )}
       </div>
       <Menu_hamburguesa
