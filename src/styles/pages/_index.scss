@@ -1,3 +1,5 @@
+@import "@/styles/core/variables";
+
 .root {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -11,17 +13,17 @@
 
 .mode {
   &__light {
-    background-color: lightblue;
-    color: black;
+    background-color: $terciary-color;
+    color: $first-font-color;
     a {
-      color: black;
+      color: $first-font-color;
     }
   }
   &__dark {
-    background-color: darkblue;
-    color: white;
+    background-color: $quaternary-color;
+    color: $secon-font-color;
     a {
-      color: white;
+      color: $secon-font-color;
     }
   }
 }
