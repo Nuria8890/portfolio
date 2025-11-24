@@ -1,5 +1,6 @@
 import "@/styles/App.scss";
 import Header from "@/components/header/Header";
+import Projects from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";
 import { useState } from "react";
 
@@ -25,7 +26,9 @@ function App() {
         handleToogleMode={toggleMode}
         isModeLight={isModeLight}
       />
-      <main></main>
+      <main>
+        <Projects />
+      </main>
       <Footer />
     </div>
   );
