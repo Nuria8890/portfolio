@@ -1,0 +1,18 @@
+.project {
+  width: 70vw;
+  height: 70vw;
+  max-width: 500px;
+  max-height: 500px;
+  background-color: red;
+  border-radius: 10%;
+  &:hover {
+    border: 1px solid #fff;
+    box-shadow: 4px 4px #fff;
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+  @media (min-width: 1024px) {
+    width: 30vw;
+    height: 30vw;
+  }
+}

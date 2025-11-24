@@ -1,5 +1,5 @@
 import "@/styles/App.scss";
-import objetProjects from "@/services/projects";
+import objetProjects from "@/data/projects";
 import Header from "@/components/header/Header";
 import Projects from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";

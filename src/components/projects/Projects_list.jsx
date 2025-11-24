@@ -1,21 +1,13 @@
+import "@/styles/layout/projects/Projects_list.scss";
 import Project_card from "./Project_card";
 
 function Projects_list({ objetProjects }) {
-  if (!objetProjects) {
-    return <div>No hay proyectos</div>;
-  }
-
   const projectsArray = Object.values(objetProjects);
 
   const projectsElement = projectsArray.map((project, i) => {
-    console.log("project en el array es:", project);
     return <Project_card key={i} projectToRender={project} />;
   });
-  return (
-    <section>
-      <ul>{projectsElement}</ul>
-    </section>
-  );
+  return <ul className="projects__container">{projectsElement}</ul>;
 }
 
 export default Projects_list;
