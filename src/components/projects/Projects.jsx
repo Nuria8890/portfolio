@@ -1,17 +1,10 @@
 import "@/styles/layout/projects/Projects.scss";
+import Projects_list from "./Projects_list";
 
-function projects() {
+function projects({ objetProjects }) {
   return (
     <section className="project">
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
-      <div className="project__container"></div>
+      <Projects_list objetProjects={objetProjects} />
     </section>
   );
 }

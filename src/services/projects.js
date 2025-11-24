@@ -28,7 +28,7 @@ const adalabModulo4Evaluacion =
   "https://nuria8890.github.io/ADALAB-modulo-4-evaluacion-final-bpw-Nuria8890/";
 
 /* TODO: 
-  - sacar los proyectitos de 42Madrid de cada carpeta para poder crear una url de cada uno
+  - sacar los proyectitos de 42Madrid y de Platzi de cada carpeta para poder crear una url de cada uno
   - terminar los pair programming de aladab y crear las url de cada uno
 */
 

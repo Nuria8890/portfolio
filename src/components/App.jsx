@@ -1,4 +1,5 @@
 import "@/styles/App.scss";
+import objetProjects from "@/services/projects";
 import Header from "@/components/header/Header";
 import Projects from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";
@@ -27,7 +28,7 @@ function App() {
         isModeLight={isModeLight}
       />
       <main>
-        <Projects />
+        <Projects objetProjects={objetProjects} />
       </main>
       <Footer />
     </div>
