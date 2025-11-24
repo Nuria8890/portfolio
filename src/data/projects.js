@@ -1,6 +1,9 @@
+import PhotoA1Gru from "@/assets/a1Gru.jpeg";
+
 const adalabModulo1Grupal = {
   url: "https://nuria8890.github.io/ADALAB-project-module-1-team-2-TechAnimal/",
-  photo: "dsagfadsga",
+  text: "Es una página web realizada con HTML, SCSS y Vite, tiene un diseño responsive mobile first utilizando mediaqueries, por lo que la web se adapta al tamaño de pantalla de distintos dispositivos, y utilizamos control de versiones con Git y GitHub, con el que aprendimos a mejorar la comunicación entre los miembros del equipo.Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+  photo: PhotoA1Gru,
   date: "dsgdsa",
 };
 
