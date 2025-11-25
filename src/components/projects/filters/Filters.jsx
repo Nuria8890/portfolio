@@ -1,7 +1,7 @@
 import ResetButton from "./ResetButton";
 import FilterByTech from "./FilterByTech";
 
-function Filters({ arrayProjects }) {
+function Filters({ arrayProjects, onChangeInpuntTech }) {
   const HtmlProjects = arrayProjects.filter(
     (project) => project.tech === "HTML y CSS"
   );
@@ -22,7 +22,7 @@ function Filters({ arrayProjects }) {
     <form className="filters">
       <ResetButton />
 
-      <FilterByTech />
+      <FilterByTech onChangeInpuntTech={onChangeInpuntTech} />
     </form>
   );
 }

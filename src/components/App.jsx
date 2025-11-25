@@ -19,6 +19,10 @@ function App() {
     console.log("click en modo claro/oscuro");
   };
 
+  const changeInpuntTech = () => {
+    console.log("ha seleccionado otra tecnología");
+  };
+
   return (
     <div className={`root ${isModeLight ? "mode__light" : "mode__dark"}`}>
       <Header
@@ -28,7 +32,10 @@ function App() {
         isModeLight={isModeLight}
       />
       <main>
-        <Projects objetProjects={objetProjects} />
+        <Projects
+          objetProjects={objetProjects}
+          onChangeInpuntTech={changeInpuntTech}
+        />
       </main>
       <Footer />
     </div>
