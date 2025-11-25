@@ -1,11 +1,11 @@
 function FilterByTech({ onChangeInpuntTech }) {
-  const handleChangeInput = () => {
-    onChangeInpuntTech();
+  const handleChangeInput = (event) => {
+    onChangeInpuntTech(event.target.value);
   };
 
   return (
     <select onChange={handleChangeInput}>
-      <option value="">Selecciona una tecnología</option>
+      <option value="all">Selecciona una tecnología</option>
       <option value="html">HTML y CSS</option>
       <option value="js">JavaScript vanilla</option>
       <option value="react">React</option>

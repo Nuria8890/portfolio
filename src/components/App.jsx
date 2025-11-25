@@ -10,6 +10,8 @@ function App() {
 
   const [isModeLight, setIsModeLight] = useState(true);
 
+  const [selectedTech, setSelectedTech] = useState("all");
+
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
   };
@@ -19,8 +21,8 @@ function App() {
     console.log("click en modo claro/oscuro");
   };
 
-  const changeInpuntTech = () => {
-    console.log("ha seleccionado otra tecnología");
+  const changeInpuntTech = (value) => {
+    setSelectedTech(value);
   };
 
   return (
