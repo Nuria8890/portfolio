@@ -9,7 +9,6 @@ function Project_card({ projectToRender }) {
           src={projectToRender.photo}
           alt="imagen"
         />
-        <p></p>
         <p>
           <b>Fecha:</b> {projectToRender.date}
         </p>
