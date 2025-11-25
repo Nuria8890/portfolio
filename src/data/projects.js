@@ -1,4 +1,12 @@
 import PhotoA1Gru from "@/assets/a1Gru.jpeg";
+import PhotoA1Ev from "@/assets/a1Ev.jpeg";
+import PhotoA2Int from "@/assets/a2Int.jpeg";
+import PhotoA2Gru from "@/assets/a2Gru.jpeg";
+import PhotoA2Ev from "@/assets/a2Ev.jpeg";
+import PhotoA3Int from "@/assets/a3Int.jpeg";
+import PhotoA3y4Gru from "@/assets/a3y4Gru.jpeg";
+import PhotoA3Ev from "@/assets/a3Ev.jpeg";
+import PhotoA4Ev from "@/assets/a4Ev.jpeg";
 
 const adalabModulo1Grupal = {
   url: "https://nuria8890.github.io/ADALAB-project-module-1-team-2-TechAnimal/",
@@ -9,38 +17,42 @@ const adalabModulo1Grupal = {
 
 const adalabModulo1Evaluacion = {
   url: "https://nuria8890.github.io/ADALAB-modulo-1-evaluacion-final-Nuria8890/",
+  photo: PhotoA1Ev,
 };
 
 const adalabModulo2Grupal = {
   url: "https://nuria8890.github.io/ADALAB-project-module-2-team-3-HastaElInfinito/",
+  photo: PhotoA2Gru,
 };
 
 const adalabModulo2EvaluacionIntermedia = {
   url: "https://nuria8890.github.io/ADALAB-modulo-2-evaluacion-intermedia-Nuria8890/",
+  photo: PhotoA2Int,
 };
 
 const adalabModulo2Evaluacion = {
   url: "https://nuria8890.github.io/ADALAB-modulo-2-evaluacion-final-Nuria8890/",
-};
-
-const adalabModulo3Grupal = {
-  url: "https://nuria8890.github.io/ADALAB-project-module-3-team-2-ProyectosMolones/",
+  photo: PhotoA2Ev,
 };
 
 const adalabModulo3EvaluacionIntermedia = {
   url: "https://nuria8890.github.io/ADALAB-modulo-3-evaluacion-intermedia-Nuria8890/",
+  photo: PhotoA3Int,
 };
 
 const adalabModulo3Evaluacion = {
   url: "https://nuria8890.github.io/ADALAB-modulo-3-evaluacion-final-Nuria8890/",
+  photo: PhotoA3Ev,
 };
 
-const adalabModulo4Grupal = {
+const adalabModulo3y4Grupal = {
   url: "https://promo-a-module-4-team-2-proyectos.onrender.com/",
+  photo: PhotoA3y4Gru,
 };
 
 const adalabModulo4Evaluacion = {
   url: "https://nuria8890.github.io/ADALAB-modulo-4-evaluacion-final-bpw-Nuria8890/",
+  photo: PhotoA4Ev,
 };
 
 /* TODO: 
@@ -54,10 +66,9 @@ const objetProjects = {
   a2Gru: adalabModulo2Grupal,
   a2Int: adalabModulo2EvaluacionIntermedia,
   a2Ev: adalabModulo2Evaluacion,
-  a3Gr: adalabModulo3Grupal,
   a3Int: adalabModulo3EvaluacionIntermedia,
   a3Ev: adalabModulo3Evaluacion,
-  a4Gru: adalabModulo4Grupal,
+  a3y4Gru: adalabModulo3y4Grupal,
   a4Ev: adalabModulo4Evaluacion,
 };
 
