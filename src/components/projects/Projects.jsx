@@ -1,17 +1,24 @@
 import Filters from "./filters/Filters";
 import Projects_list from "./Projects_list";
 
-function projects({ objetProjects, onChangeInpuntTech }) {
+function projects({ objetProjects, onChangeInpuntTech, selectedTech }) {
   const arrayProjects = Object.values(objetProjects);
+
+  let filteredProjects;
+
+  if (selectedTech === "all") {
+    filteredProjects = arrayProjects;
+  } else {
+    filteredProjects = arrayProjects.filter(
+      (project) => project.tech === selectedTech
+    );
+  }
 
   return (
     <>
-      <Filters
-        onChangeInpuntTech={onChangeInpuntTech}
-        arrayProjects={arrayProjects}
-      />
+      <Filters onChangeInpuntTech={onChangeInpuntTech} />
       <section>
-        <Projects_list arrayProjects={arrayProjects} />
+        <Projects_list filteredProjects={filteredProjects} />
       </section>
     </>
   );

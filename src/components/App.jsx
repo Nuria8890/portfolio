@@ -37,6 +37,7 @@ function App() {
         <Projects
           objetProjects={objetProjects}
           onChangeInpuntTech={changeInpuntTech}
+          selectedTech={selectedTech}
         />
       </main>
       <Footer />

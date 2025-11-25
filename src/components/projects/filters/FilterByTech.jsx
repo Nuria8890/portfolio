@@ -5,7 +5,7 @@ function FilterByTech({ onChangeInpuntTech }) {
 
   return (
     <select onChange={handleChangeInput}>
-      <option value="all">Selecciona una tecnología</option>
+      <option value="all">Todos</option>
       <option value="html">HTML y CSS</option>
       <option value="js">JavaScript vanilla</option>
       <option value="react">React</option>
