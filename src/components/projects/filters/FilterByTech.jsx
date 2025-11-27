@@ -1,15 +1,25 @@
-function FilterByTech({ onChangeInpuntTech }) {
+function FilterByTech({ onChangeInpuntTech, technologies }) {
   const handleChangeInput = (event) => {
     onChangeInpuntTech(event.target.value);
   };
 
+  const technologySelected = technologies.map((technology, i) => {
+    return (
+      <option key={i} value={technology}>
+        {technology}
+      </option>
+    );
+  });
+
   return (
-    <select id="techFilter" name="techFilter" onChange={handleChangeInput}>
+    <select
+      className="filters__filterByTech"
+      id="techFilter"
+      name="techFilter"
+      onChange={handleChangeInput}
+    >
       <option value="all">Todos</option>
-      <option value="html">HTML y CSS</option>
-      <option value="js">JavaScript vanilla</option>
-      <option value="react">React</option>
-      <option value="db">Base de datos</option>
+      {technologySelected}
     </select>
   );
 }

@@ -1,0 +1,25 @@
+@import "@/styles/core/variables";
+
+.filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  &__filterByTech {
+    padding: 5px;
+    option {
+      background-color: $primary-color;
+      &:checked {
+        background-color: $secondary-color;
+      }
+    }
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+  @media (min-width: 768px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

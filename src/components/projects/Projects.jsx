@@ -24,6 +24,7 @@ function projects({
       <Filters
         onChangeInpuntTech={onChangeInpuntTech}
         onClickReset={onClickReset}
+        arrayProjects={arrayProjects}
       />
       <section>
         <Projects_list filteredProjects={filteredProjects} />
