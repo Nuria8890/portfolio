@@ -84,7 +84,7 @@ const adalabModulo4Evaluacion = {
   url: "https://nuria8890.github.io/ADALAB-modulo-4-evaluacion-final-bpw-Nuria8890/",
   photo: PhotoA4Ev,
   tech: "Data Base",
-  title: "Roler db",
+  title: "Roller db",
   text: "He creado un servidor con NodeJS y Express que gestiona una API para una tienda ficticia de patines. El código está bien estructurado, con funciones separadas para el manejo de rutas y operaciones, lo que facilita la lectura y el mantenimiento. A destacar: - endpoints (POST, GET, PUT, DELETE) - implementación de validación básica para asegurar que los datos requeridos están presentes antes de realizar operaciones en la bbdd - manejo de errores comunes devolviendo respuestas adecuadas al cliente",
   date: new Date("2024-12-20"),
 };

@@ -1,3 +1,5 @@
+@import "@/styles/core/variables";
+
 .projectsContainer {
   display: flex;
   flex-direction: column;
@@ -18,13 +20,20 @@
     background-color: red;
     padding: 5px;
     border-radius: 10%;
+    position: relative;
     &:hover {
       border: 1px solid #fff;
       box-shadow: 4px 4px #fff;
       transform: scale(1.03);
       cursor: pointer;
-      .projectsContainer__project__text {
-        display: flex;
+      @media (min-width: 1024px) {
+        .projectsContainer__project__text {
+          display: flex;
+          height: 100%;
+          flex-wrap: wrap;
+          overflow-y: auto;
+          align-items: center;
+        }
       }
     }
     &__img {
@@ -33,6 +42,13 @@
     }
     &__text {
       display: none;
+      background-color: rgb(0, 0, 0, 0.5);
+      color: $secon-font-color;
+      position: fixed;
+      padding: 10px;
+      top: 5;
+      right: 5;
+      border-radius: 10%;
     }
     @media (min-width: 768px) {
       width: 20vw;
