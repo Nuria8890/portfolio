@@ -1,14 +1,12 @@
-import "@/styles/layout/projects/Project_card.scss";
-
 function Project_card({ projectToRender }) {
   return (
     <a href={projectToRender.url} target="_blank" rel="noopener noreferrer">
-      <li className="project">
+      <li className="projectsContainer__project">
         <p>
           <b>Título:</b> {projectToRender.title}
         </p>
         <img
-          className="project__img"
+          className="projectsContainer__project__img"
           src={projectToRender.photo}
           alt="imagen"
         />
@@ -18,6 +16,9 @@ function Project_card({ projectToRender }) {
             year: "numeric",
             month: "long",
           })}
+        </p>
+        <p className="projectsContainer__project__text">
+          {projectToRender.text}
         </p>
       </li>
     </a>

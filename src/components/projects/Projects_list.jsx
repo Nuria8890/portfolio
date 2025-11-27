@@ -6,7 +6,7 @@ function Projects_list({ filteredProjects }) {
     return <Project_card key={i} projectToRender={project} />;
   });
 
-  return <ul className="projects__container">{projectsToRender}</ul>;
+  return <ul className="projectsContainer">{projectsToRender}</ul>;
 }
 
 export default Projects_list;
