@@ -17,9 +17,10 @@ function Project_card({ projectToRender }) {
             month: "long",
           })}
         </p>
-        <p className="projectsContainer__project__text">
-          {projectToRender.text}
-        </p>
+        <p
+          className="projectsContainer__project__text"
+          dangerouslySetInnerHTML={{ __html: projectToRender.text }}
+        ></p>
       </li>
     </a>
   );

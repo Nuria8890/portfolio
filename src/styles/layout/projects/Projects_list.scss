@@ -29,10 +29,12 @@
       @media (min-width: 1024px) {
         .projectsContainer__project__text {
           display: flex;
+          // flex-direction: column;
           height: 100%;
           flex-wrap: wrap;
           overflow-y: auto;
           align-items: center;
+          // justify-content: center;
         }
       }
     }

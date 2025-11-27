@@ -13,7 +13,7 @@ const adalabModulo1Grupal = {
   photo: PhotoA1Gru,
   tech: "HTML y CSS",
   title: "Tech Animal",
-  text: "Es una página web realizada con HTML, SCSS y Vite, tiene un diseño responsive mobile first utilizando mediaqueries, por lo que la web se adapta al tamaño de pantalla de distintos dispositivos, y utilizamos control de versiones con Git y GitHub, con el que aprendimos a mejorar la comunicación entre los miembros del equipo. Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web muy sencilla realizada únicamente con HTML, SCSS y Vite.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
   date: new Date("2024-10-11"),
 };
 
@@ -22,7 +22,7 @@ const adalabModulo1Evaluacion = {
   photo: PhotoA1Ev,
   tech: "HTML y CSS",
   title: "Comienzos compartidos",
-  text: "Es una página web realizada con HTML, SCSS y Vite, tiene un diseño responsive mobile first utilizando mediaqueries, por lo que la web se adapta al tamaño de pantalla de distintos dispositivos, y utilicé control de versiones con Git y GitHub, con el que mejoré la organización de las tareas. Para el despliegue de este proyecto he utilizado GitHub pages.",
+  text: "Proyecto individual.<br/><br/>Es una web muy sencilla realizada únicamente con HTML, SCSS y Vite.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto he utilizado GitHub pages.",
   date: new Date("2024-10-10"),
 };
 
@@ -31,7 +31,7 @@ const adalabModulo2Grupal = {
   photo: PhotoA2Gru,
   tech: "JavaScript vanilla",
   title: "Hasta el infinito",
-  text: "Es una página web realizada con HTML, SCSS, JavaScript vanilla y Vite, donde el usuario puede crear tarjetas personalizadas con temática ToyStory. A destacar: - uso de variables, estructuras de datos, condicionales y funciones, - manipulación del DOM y respuesta a eventos del usuario, - manejo de estructuras de datos complejas, con arrays y objetos, - peticiones al servidor (fetch), - almacenaje de datos en local (localStorage). Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web realizada con HTML, SCSS, JavaScript vanilla y Vite, donde el usuario puede crear tarjetas personalizadas con temática ToyStory.<br/><br/>A destacar:<br/>- uso de variables, estructuras de datos, condicionales y funciones,<br/>- manipulación del DOM y respuesta a eventos del usuario,<br/>- manejo de estructuras de datos complejas, con arrays y objetos,<br/>- peticiones al servidor (fetch),<br/>- almacenaje de datos en local (localStorage).<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
   date: new Date("2024-11-13"),
 };
 
@@ -40,7 +40,7 @@ const adalabModulo2EvaluacionIntermedia = {
   photo: PhotoA2Int,
   tech: "JavaScript vanilla",
   title: "Adivina el número",
-  text: "Es una web sencilla, realizada con HTML, CSS y JS. Es un juego donde el usuario intenta adivinar un número aleatorio. El código está bien organizado en funciones específicas, lo que facilita su comprensión y mantenimiento. He utilizado: - 'strict mode' para evitar errores comunes y mejorar la seguridad del código, - métodos de JS para crear un número aleatorio, - selectores de clase para interactuar con el DOM, - condicionales y funciones manejadoras para manejar eventos. Disfrútalo! 👾 🎮",
+  text: "Proyecto individual.<br/><br/>Es una web realizada con HTML, CSS y JavaScript vanilla.<br/><br/>Es un juego donde el usuario intenta adivinar un número aleatorio.<br/><br/>El código está bien organizado en funciones específicas, lo que facilita su comprensión y mantenimiento.<br/><br/>He utilizado:<br/>- 'strict mode' para evitar errores comunes y mejorar la seguridad del código,<br/>- métodos de JS para crear un número aleatorio,<br/>- selectores de clase para interactuar con el DOM,<br/>- condicionales y funciones manejadoras para manejar eventos.<br/><br/>Disfrútalo! 👾 🎮",
   date: new Date("2024-10-25"),
 };
 
@@ -49,7 +49,7 @@ const adalabModulo2Evaluacion = {
   photo: PhotoA2Ev,
   tech: "JavaScript vanilla",
   title: "Buscador de series de anime",
-  text: "Es una web realizada con HTML, CSS y JS vanilla, donde el usuario puede buscar y guardar sus series de anime favoritas. El código está bien organizado en funciones específicas, lo que facilita su legibilidad y mantenimiento. A destacar: - uso de API, - localStorage para guardar las preferencias de usuario, - actualización del DOM de forma eficiente y dinámica, - manejo de eventos efectivo, añadiendo escuchas a varios elementos (buscar, reset, eliminar de favoritos) Disfrútalo!",
+  text: "Proyecto individual.<br/><br/>Es una web realizada con HTML, CSS y JavaScript vanilla, donde el usuario puede buscar y guardar sus series de anime favoritas.<br/><br/>El código está bien organizado en funciones específicas, lo que facilita su legibilidad y mantenimiento.<br/><br/>A destacar:<br/>- uso de API,<br/>- localStorage para guardar las preferencias de usuario,<br/>- actualización del DOM de forma eficiente y dinámica,<br/>- manejo de eventos efectivo, añadiendo escuchas a varios elementos (buscar, reset, eliminar de favoritos)<br/><br/>Disfrútalo!",
   date: new Date("2024-11-07"),
 };
 
@@ -58,7 +58,7 @@ const adalabModulo3EvaluacionIntermedia = {
   photo: PhotoA3Int,
   tech: "React",
   title: "Listado de países",
-  text: "Es una web realizada con React, donde el usuario puede buscar países por nombre y continente. El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional. A destacar: - uso de JSON con el contenido de los países - useState para manejar el estado y renderizar los componentes automáticamente - utilización de una lógica de filtrado flexible, que permite combinar múltiples criterios de forma efectiva Descubre los países de cada continente!",
+  text: "Proyecto individual.<br/><br/>Es una web realizada con React, donde el usuario puede buscar países por nombre y continente.<br/><br/>El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional.<br/><br/>A destacar:<br/>- uso de JSON con el contenido de los países<br/>- useState para manejar el estado y renderizar los componentes automáticamente<br/>- utilización de una lógica de filtrado flexible, que permite combinar múltiples criterios de forma efectiva.<br/><br/>Descubre los países de cada continente!",
   date: new Date("2024-11-21"),
 };
 
@@ -67,7 +67,7 @@ const adalabModulo3Evaluacion = {
   photo: PhotoA3Ev,
   tech: "React",
   title: "Rick and Morty characters",
-  text: "Es una web realizada con React, donde el usuario puede filtrar personajes de la serie Rick&Morty por nombre, especie y estado. El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional. A destacar: - API de rickandmortyapi.com - uso adecuado de useState y useEffect, que permite manejar el estado y los efectos secundarios de manera efectiva - almacenamiento de datos en localStorage Wubba lubba dub dub!",
+  text: "Proyecto individual.<br/><br/>Es una web realizada con React, donde el usuario puede filtrar personajes de la serie Rick&Morty por nombre, especie y estado.<br/><br/>El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional.<br/><br/>A destacar:<br/>- API de rickandmortyapi.com<br/>- uso adecuado de useState y useEffect, que permite manejar el estado y los efectos secundarios de manera efectiva<br/>- almacenamiento de datos en localStorage<br/><br/>Wubba lubba dub dub!",
   date: new Date("2024-11-28"),
 };
 
@@ -76,7 +76,7 @@ const adalabModulo3y4Grupal = {
   photo: PhotoA3y4Gru,
   tech: "Data Base",
   title: "4Code",
-  text: "Es una página web realizada con React, donde el usuario puede introducir los datos de un proyecto y obtener una vista maquetada con esa información. A destacar: - migración de código a React - creación de servidor con NodeJS y ExpressJS - creación de API Rest - creación de bbdd con MySQL - peticiones al servidor (fetch) - envío de parámetros al API Rest (query, body, url, header) - respuesta del servidor (endpoints) Para el despliegue de este proyecto hemos utilizado la plataforma Render.",
+  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web realizada con React, donde el usuario puede introducir los datos de un proyecto y obtener una vista maquetada con esa información.<br/><br/>A destacar:<br/>- migración de código a React<br/>- creación de servidor con NodeJS y ExpressJS<br/>- creación de API Rest<br/>- creación de bbdd con MySQL<br/>- peticiones al servidor (fetch)<br/>- envío de parámetros al API Rest (query, body, url, header)<br/>- respuesta del servidor (endpoints).<br/><br/>Para el despliegue de este proyecto hemos utilizado la plataforma Render.",
   date: new Date("2024-12-23"),
 };
 
@@ -85,7 +85,7 @@ const adalabModulo4Evaluacion = {
   photo: PhotoA4Ev,
   tech: "Data Base",
   title: "Roller db",
-  text: "He creado un servidor con NodeJS y Express que gestiona una API para una tienda ficticia de patines. El código está bien estructurado, con funciones separadas para el manejo de rutas y operaciones, lo que facilita la lectura y el mantenimiento. A destacar: - endpoints (POST, GET, PUT, DELETE) - implementación de validación básica para asegurar que los datos requeridos están presentes antes de realizar operaciones en la bbdd - manejo de errores comunes devolviendo respuestas adecuadas al cliente",
+  text: "Proyecto individual.<br/><br/>He creado un servidor con NodeJS y Express que gestiona una API para una tienda ficticia de patines.<br/><br/>El código está bien estructurado, con funciones separadas para el manejo de rutas y operaciones, lo que facilita la lectura y el mantenimiento.<br/><br/>A destacar:<br/>- endpoints (POST, GET, PUT, DELETE)<br/>- implementación de validación básica para asegurar que los datos requeridos están presentes antes de realizar operaciones en la bbdd<br/>- manejo de errores comunes devolviendo respuestas adecuadas al cliente",
   date: new Date("2024-12-20"),
 };
 
