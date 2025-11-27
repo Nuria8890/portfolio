@@ -2,7 +2,12 @@ import "@/styles/layout/projects/filters/Filters.scss";
 import ResetButton from "./ResetButton";
 import FilterByTech from "./FilterByTech";
 
-function Filters({ onChangeInpuntTech, onClickReset, arrayProjects }) {
+function Filters({
+  onChangeInpuntTech,
+  onClickReset,
+  arrayProjects,
+  selectedTech,
+}) {
   console.log("arrayProjects", arrayProjects);
 
   const allTechnologies = arrayProjects.map((technology) => {
@@ -18,6 +23,7 @@ function Filters({ onChangeInpuntTech, onClickReset, arrayProjects }) {
       <FilterByTech
         onChangeInpuntTech={onChangeInpuntTech}
         technologies={technologies}
+        selectedTech={selectedTech}
       />
       <ResetButton onClickReset={onClickReset} />
     </form>

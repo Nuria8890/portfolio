@@ -1,9 +1,9 @@
-function FilterByTech({ onChangeInpuntTech, technologies }) {
+function FilterByTech({ onChangeInpuntTech, technologies, selectedTech }) {
   const handleChangeInput = (event) => {
     onChangeInpuntTech(event.target.value);
   };
 
-  const technologySelected = technologies.map((technology, i) => {
+  const technology = technologies.map((technology, i) => {
     return (
       <option key={i} value={technology}>
         {technology}
@@ -16,10 +16,11 @@ function FilterByTech({ onChangeInpuntTech, technologies }) {
       className="filters__filterByTech"
       id="techFilter"
       name="techFilter"
+      value={selectedTech}
       onChange={handleChangeInput}
     >
-      <option value="all">Todos</option>
-      {technologySelected}
+      <option value="">Todos los proyectos</option>
+      {technology}
     </select>
   );
 }

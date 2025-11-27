@@ -11,7 +11,7 @@ function projects({
 
   let filteredProjects;
 
-  if (selectedTech === "all") {
+  if (selectedTech === "") {
     filteredProjects = arrayProjects;
   } else {
     filteredProjects = arrayProjects.filter(
@@ -25,6 +25,7 @@ function projects({
         onChangeInpuntTech={onChangeInpuntTech}
         onClickReset={onClickReset}
         arrayProjects={arrayProjects}
+        selectedTech={selectedTech}
       />
       <section>
         <Projects_list filteredProjects={filteredProjects} />

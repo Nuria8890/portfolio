@@ -10,7 +10,7 @@ function App() {
 
   const [isModeLight, setIsModeLight] = useState(true);
 
-  const [selectedTech, setSelectedTech] = useState("all");
+  const [selectedTech, setSelectedTech] = useState("");
 
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
@@ -26,7 +26,7 @@ function App() {
   };
 
   const clickReset = () => {
-    setSelectedTech("all");
+    setSelectedTech("");
   };
 
   return (
