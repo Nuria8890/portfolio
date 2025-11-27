@@ -20,6 +20,11 @@ button {
   border: none;
   width: fit-content;
   cursor: pointer;
+  font-family: inherit; /* Usa la misma fuente que el elemento padre */
+  font-size: inherit; /* Usa el tamaño de fuente del elemento padre */
+  color: inherit; /* Usa el mismo color que el elemento padre */
+  background-color: transparent; /* Fondo transparente */
+  outline: none; /* Quitar el contorno de enfoque */
 }
 
 fieldset {
@@ -28,4 +33,13 @@ fieldset {
 
 input {
   align-self: self-start;
+}
+
+select {
+  font-family: inherit; /* Usa la misma fuente que el elemento padre */
+  font-size: inherit; /* Usa el tamaño de fuente del elemento padre */
+  color: inherit; /* Usa el mismo color que el elemento padre */
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Quitar bordes */
+  outline: none; /* Quitar el contorno de enfoque */
 }
