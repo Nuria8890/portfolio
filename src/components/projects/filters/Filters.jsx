@@ -4,9 +4,8 @@ import FilterByTech from "./FilterByTech";
 function Filters({ onChangeInpuntTech, onClickReset }) {
   return (
     <form className="filters">
-      <ResetButton onClickReset={onClickReset} />
-
       <FilterByTech onChangeInpuntTech={onChangeInpuntTech} />
+      <ResetButton onClickReset={onClickReset} />
     </form>
   );
 }
