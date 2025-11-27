@@ -25,6 +25,10 @@ function App() {
     setSelectedTech(value);
   };
 
+  const clickReset = () => {
+    setSelectedTech("all");
+  };
+
   return (
     <div className={`root ${isModeLight ? "mode__light" : "mode__dark"}`}>
       <Header
@@ -38,6 +42,7 @@ function App() {
           objetProjects={objetProjects}
           onChangeInpuntTech={changeInpuntTech}
           selectedTech={selectedTech}
+          onClickReset={clickReset}
         />
       </main>
       <Footer />

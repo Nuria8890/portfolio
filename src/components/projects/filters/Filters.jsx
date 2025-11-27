@@ -1,10 +1,10 @@
 import ResetButton from "./ResetButton";
 import FilterByTech from "./FilterByTech";
 
-function Filters({ onChangeInpuntTech }) {
+function Filters({ onChangeInpuntTech, onClickReset }) {
   return (
     <form className="filters">
-      <ResetButton />
+      <ResetButton onClickReset={onClickReset} />
 
       <FilterByTech onChangeInpuntTech={onChangeInpuntTech} />
     </form>

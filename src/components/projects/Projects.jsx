@@ -1,7 +1,12 @@
 import Filters from "./filters/Filters";
 import Projects_list from "./Projects_list";
 
-function projects({ objetProjects, onChangeInpuntTech, selectedTech }) {
+function projects({
+  objetProjects,
+  onChangeInpuntTech,
+  selectedTech,
+  onClickReset,
+}) {
   const arrayProjects = Object.values(objetProjects);
 
   let filteredProjects;
@@ -16,7 +21,10 @@ function projects({ objetProjects, onChangeInpuntTech, selectedTech }) {
 
   return (
     <>
-      <Filters onChangeInpuntTech={onChangeInpuntTech} />
+      <Filters
+        onChangeInpuntTech={onChangeInpuntTech}
+        onClickReset={onClickReset}
+      />
       <section>
         <Projects_list filteredProjects={filteredProjects} />
       </section>
