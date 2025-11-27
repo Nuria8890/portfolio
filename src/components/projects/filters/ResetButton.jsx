@@ -3,7 +3,11 @@ function ResetButton({ onClickReset }) {
     event.preventDefault();
     onClickReset();
   };
-  return <button onClick={handleClickReset}>Reset</button>;
+  return (
+    <button className="filters__resetButton" onClick={handleClickReset}>
+      Reset
+    </button>
+  );
 }
 
 export default ResetButton;
