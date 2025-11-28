@@ -1,28 +1,31 @@
 function Project_card({ projectToRender }) {
   return (
-    <a href={projectToRender.url} target="_blank" rel="noopener noreferrer">
-      <li className="projectsContainer__project">
-        <p>
-          <b>Título:</b> {projectToRender.title}
-        </p>
+    <li>
+      <a
+        href={projectToRender.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="projectsContainer__project"
+      >
+        <span>{projectToRender.title}</span>
         <img
           className="projectsContainer__project__img"
           src={projectToRender.photo}
           alt="imagen"
         />
-        <p>
-          <b>Fecha:</b>{" "}
+        <span>
+          Creado en{" "}
           {projectToRender.date.toLocaleDateString("es-ES", {
             year: "numeric",
             month: "long",
           })}
-        </p>
+        </span>
         <p
           className="projectsContainer__project__text"
           dangerouslySetInnerHTML={{ __html: projectToRender.text }}
         ></p>
-      </li>
-    </a>
+      </a>
+    </li>
   );
 }
 
