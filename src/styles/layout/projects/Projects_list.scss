@@ -27,14 +27,20 @@
       transform: scale(1.03);
       cursor: pointer;
       @media (min-width: 1024px) {
-        .projectsContainer__project__text {
-          transform: translateY(0);
-          transition: all 1s ease;
-          visibility: visible;
-          height: 100%;
-          flex-wrap: wrap;
-          overflow-y: auto;
-          align-items: center;
+        .projectsContainer__project {
+          &__date {
+            display: none;
+          }
+          &__text {
+            transform: translateY(0);
+            transition: all 1s ease;
+            visibility: visible;
+            display: flex;
+            height: 100%;
+            flex-wrap: wrap;
+            overflow-y: auto;
+            align-items: center;
+          }
         }
       }
     }

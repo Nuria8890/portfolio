@@ -1,3 +1,5 @@
+// import { CiHeart } from "react-icons/ci";
+
 function Project_card({ projectToRender }) {
   return (
     <li>
@@ -13,17 +15,19 @@ function Project_card({ projectToRender }) {
           src={projectToRender.photo}
           alt="imagen"
         />
-        <span>
+        <span className="projectsContainer__project__date">
           Creado en{" "}
           {projectToRender.date.toLocaleDateString("es-ES", {
             year: "numeric",
             month: "long",
           })}
         </span>
-        <p
-          className="projectsContainer__project__text"
-          dangerouslySetInnerHTML={{ __html: projectToRender.text }}
-        ></p>
+        <div className="projectsContainer__project__text">
+          <p dangerouslySetInnerHTML={{ __html: projectToRender.text }}></p>
+          {/* <span>
+            <CiHeart />
+          </span> */}
+        </div>
       </a>
     </li>
   );
