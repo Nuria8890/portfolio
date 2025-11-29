@@ -2,13 +2,11 @@ import Filters from "./filters/Filters";
 import Projects_list from "./Projects_list";
 
 function projects({
-  objetProjects,
+  arrayProjects,
   onChangeInpuntTech,
   selectedTech,
   onClickReset,
 }) {
-  const arrayProjects = Object.values(objetProjects);
-
   let filteredProjects;
 
   if (selectedTech === "") {
@@ -18,7 +16,6 @@ function projects({
       (project) => project.tech === selectedTech
     );
   }
-
   return (
     <>
       <Filters

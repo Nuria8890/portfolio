@@ -1,14 +1,21 @@
 // import { CiHeart } from "react-icons/ci";
 
+import { NavLink } from "react-router";
+
 function Project_card({ projectToRender }) {
   return (
     <li>
-      <a
+      <NavLink
+        className="projectsContainer__project"
+        to={`/projects/${projectToRender.id}`}
+        end
+      >
+        {/* <a
         href={projectToRender.url}
         target="_blank"
         rel="noopener noreferrer"
         className="projectsContainer__project"
-      >
+      > */}
         <span className="projectsContainer__project__title">
           {projectToRender.title}
         </span>
@@ -29,7 +36,8 @@ function Project_card({ projectToRender }) {
             <CiHeart />
           </span> */}
         </div>
-      </a>
+      </NavLink>
+      {/* </a> */}
     </li>
   );
 }

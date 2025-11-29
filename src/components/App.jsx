@@ -4,6 +4,8 @@ import Header from "@/components/header/Header";
 import Projects from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";
 import { useState } from "react";
+import Project_details from "./projects/Project_details";
+import { Routes, Route } from "react-router";
 
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -29,6 +31,8 @@ function App() {
     setSelectedTech("");
   };
 
+  const arrayProjects = Object.values(objetProjects);
+
   return (
     <div className={`root ${isModeLight ? "mode__light" : "mode__dark"}`}>
       <Header
@@ -38,12 +42,27 @@ function App() {
         isModeLight={isModeLight}
       />
       <main>
-        <Projects
-          objetProjects={objetProjects}
-          onChangeInpuntTech={changeInpuntTech}
-          selectedTech={selectedTech}
-          onClickReset={clickReset}
-        />
+        <Routes>
+          {/* <About_me /> */}
+          <Route path="/projects">
+            <Route
+              index
+              element={
+                <Projects
+                  arrayProjects={arrayProjects}
+                  onChangeInpuntTech={changeInpuntTech}
+                  selectedTech={selectedTech}
+                  onClickReset={clickReset}
+                />
+              }
+            />
+            <Route
+              path="/projects/:idProject"
+              element={<Project_details arrayProjects={arrayProjects} />}
+            />
+          </Route>
+          {/* <Contact /> */}
+        </Routes>
       </main>
       <Footer />
     </div>
