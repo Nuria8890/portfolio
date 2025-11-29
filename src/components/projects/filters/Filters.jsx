@@ -8,8 +8,6 @@ function Filters({
   arrayProjects,
   selectedTech,
 }) {
-  console.log("arrayProjects", arrayProjects);
-
   const allTechnologies = arrayProjects.map((technology) => {
     return technology.tech;
   });

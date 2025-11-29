@@ -31,7 +31,9 @@ function Project_card({ projectToRender }) {
           })}
         </span>
         <div className="projectsContainer__project__text">
-          <p dangerouslySetInnerHTML={{ __html: projectToRender.text }}></p>
+          <p
+            dangerouslySetInnerHTML={{ __html: projectToRender.smallText }}
+          ></p>
           {/* <span>
             <CiHeart />
           </span> */}

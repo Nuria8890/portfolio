@@ -19,7 +19,8 @@ function Project_details({ arrayProjects }) {
               month: "long",
             })}
           </span>
-          <p>{selectedProject.text}</p>
+
+          <p dangerouslySetInnerHTML={{ __html: selectedProject.longText }}></p>
         </div>
       </div>
     </section>
