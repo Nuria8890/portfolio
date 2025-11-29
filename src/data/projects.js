@@ -13,7 +13,7 @@ const adalabModulo1Grupal = {
   photo: PhotoA1Gru,
   tech: "HTML y CSS",
   title: "Tech Animal",
-  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web muy sencilla realizada únicamente con HTML, SCSS y Vite.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web muy sencilla maquetada únicamente con HTMLy SCSS, y que utiliza Vite como herramienta de automatización de tareas.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
   date: new Date("2024-10-11"),
 };
 
@@ -22,7 +22,7 @@ const adalabModulo1Evaluacion = {
   photo: PhotoA1Ev,
   tech: "HTML y CSS",
   title: "Comienzos compartidos",
-  text: "Proyecto individual.<br/><br/>Es una web muy sencilla realizada únicamente con HTML, SCSS y Vite.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto he utilizado GitHub pages.",
+  text: "Proyecto individual.<br/><br/>Es una web muy sencilla maquetada únicamente con HTMLy SCSS, y que utiliza Vite como herramienta de automatización de tareas.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto he utilizado GitHub pages.",
   date: new Date("2024-10-10"),
 };
 
@@ -31,7 +31,7 @@ const adalabModulo2Grupal = {
   photo: PhotoA2Gru,
   tech: "JavaScript vanilla",
   title: "Hasta el infinito",
-  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web realizada con HTML, SCSS, JavaScript vanilla y Vite, donde el usuario puede crear tarjetas personalizadas con temática ToyStory.<br/><br/>A destacar:<br/>- uso de variables, estructuras de datos, condicionales y funciones,<br/>- manipulación del DOM y respuesta a eventos del usuario,<br/>- manejo de estructuras de datos complejas, con arrays y objetos,<br/>- peticiones al servidor (fetch),<br/>- almacenaje de datos en local (localStorage).<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+  text: "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web maquetada con HTML y SCSS que utiliza Vite para automatizar tareas, y toda su funcionalidad está hecha con JavaScript vanilla.<br/>El usuario puede crear tarjetas personalizadas con temática ToyStory.<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
   date: new Date("2024-11-13"),
 };
 

@@ -16,7 +16,6 @@ function Project_card({ projectToRender }) {
           alt="imagen"
         />
         <span className="projectsContainer__project__date">
-          Creado en{" "}
           {projectToRender.date.toLocaleDateString("es-ES", {
             year: "numeric",
             month: "long",
