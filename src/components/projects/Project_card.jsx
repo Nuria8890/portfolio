@@ -9,7 +9,9 @@ function Project_card({ projectToRender }) {
         rel="noopener noreferrer"
         className="projectsContainer__project"
       >
-        <span>{projectToRender.title}</span>
+        <span className="projectsContainer__project__title">
+          {projectToRender.title}
+        </span>
         <img
           className="projectsContainer__project__img"
           src={projectToRender.photo}
