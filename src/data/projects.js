@@ -9,6 +9,7 @@ import PhotoA3Ev from "@/assets/a3Ev.jpeg";
 import PhotoA4Ev from "@/assets/a4Ev.jpeg";
 
 const adalabModulo1Grupal = {
+  id: 1,
   url: "https://nuria8890.github.io/ADALAB-project-module-1-team-2-TechAnimal/",
   photo: PhotoA1Gru,
   tech: "HTML y CSS",
@@ -18,6 +19,7 @@ const adalabModulo1Grupal = {
 };
 
 const adalabModulo1Evaluacion = {
+  id: 2,
   url: "https://nuria8890.github.io/ADALAB-modulo-1-evaluacion-final-Nuria8890/",
   photo: PhotoA1Ev,
   tech: "HTML y CSS",
@@ -27,6 +29,7 @@ const adalabModulo1Evaluacion = {
 };
 
 const adalabModulo2Grupal = {
+  id: 3,
   url: "https://nuria8890.github.io/ADALAB-project-module-2-team-3-HastaElInfinito/",
   photo: PhotoA2Gru,
   tech: "JavaScript vanilla",
@@ -36,6 +39,7 @@ const adalabModulo2Grupal = {
 };
 
 const adalabModulo2EvaluacionIntermedia = {
+  id: 4,
   url: "https://nuria8890.github.io/ADALAB-modulo-2-evaluacion-intermedia-Nuria8890/",
   photo: PhotoA2Int,
   tech: "JavaScript vanilla",
@@ -45,6 +49,7 @@ const adalabModulo2EvaluacionIntermedia = {
 };
 
 const adalabModulo2Evaluacion = {
+  id: 5,
   url: "https://nuria8890.github.io/ADALAB-modulo-2-evaluacion-final-Nuria8890/",
   photo: PhotoA2Ev,
   tech: "JavaScript vanilla",
@@ -54,6 +59,7 @@ const adalabModulo2Evaluacion = {
 };
 
 const adalabModulo3EvaluacionIntermedia = {
+  id: 6,
   url: "https://nuria8890.github.io/ADALAB-modulo-3-evaluacion-intermedia-Nuria8890/",
   photo: PhotoA3Int,
   tech: "React",
@@ -63,6 +69,7 @@ const adalabModulo3EvaluacionIntermedia = {
 };
 
 const adalabModulo3Evaluacion = {
+  id: 7,
   url: "https://nuria8890.github.io/ADALAB-modulo-3-evaluacion-final-Nuria8890/",
   photo: PhotoA3Ev,
   tech: "React",
@@ -72,6 +79,7 @@ const adalabModulo3Evaluacion = {
 };
 
 const adalabModulo3y4Grupal = {
+  id: 8,
   url: "https://promo-a-module-4-team-2-proyectos.onrender.com/",
   photo: PhotoA3y4Gru,
   tech: "Data Base",
@@ -81,6 +89,7 @@ const adalabModulo3y4Grupal = {
 };
 
 const adalabModulo4Evaluacion = {
+  id: 9,
   url: "https://nuria8890.github.io/ADALAB-modulo-4-evaluacion-final-bpw-Nuria8890/",
   photo: PhotoA4Ev,
   tech: "Data Base",
