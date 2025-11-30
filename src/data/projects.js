@@ -30,7 +30,7 @@ const adalabModulo1Evaluacion = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto individual.<br/><br/>Es una web muy sencilla maquetada únicamente con HTMLy SCSS, y que utiliza Vite como herramienta de automatización de tareas.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto he utilizado GitHub pages.",
+    "Este proyecto es mi primera <b>evaluación</b> del bootcamp.<br/><br/>Desarrollé esta web partiendo de un diseño proporcionado a través de <b>Zeplin</b>.<br/><br/>Es una web muy sencilla maquetada únicamente con <b>HTML</b> y <b>SCSS</b>, y que utiliza <b>Vite</b> como herramienta de automatización de tareas.<br/>Tiene un diseño <b>responsive</b> que permite que la web se adapte a distintos dispositivos, y utilizando control de versiones con <b>Git y GitHub</b> he conseguido mejorar la organización de las tareas.<br><br/>Para el despliegue de este proyecto he utilizado GitHub pages.",
   date: new Date("2024-10-10"),
 };
 
