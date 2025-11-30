@@ -69,7 +69,7 @@ const adalabModulo2Evaluacion = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto individual.<br/><br/>Es una web realizada con HTML, CSS y JavaScript vanilla, donde el usuario puede buscar y guardar sus series de anime favoritas.<br/><br/>El código está bien organizado en funciones específicas, lo que facilita su legibilidad y mantenimiento.<br/><br/>A destacar:<br/>- uso de API,<br/>- localStorage para guardar las preferencias de usuario,<br/>- actualización del DOM de forma eficiente y dinámica,<br/>- manejo de eventos efectivo, añadiendo escuchas a varios elementos (buscar, reset, eliminar de favoritos)<br/><br/>Disfrútalo!",
+    "Este proyecto es la <b>evaluación final</b> del módulo de JavaScript de Adalab.<br/><br/>Es una web realizada con <b>HTML</b>, <b>CSS</b> y <b>JavaScript vanilla</b>, donde el usuario puede buscar y guardar sus series de anime favoritas.<br/><br/>El código está bien organizado en funciones específicas, lo que facilita su legibilidad y mantenimiento.<br/><br/>A destacar:<br/>- uso de API,<br/>- localStorage para guardar las preferencias del usuario en local,<br/>- actualización del DOM de forma eficiente y dinámica,<br/>- manejo de eventos efectivo, añadiendo escuchas a varios elementos (buscar, reset, eliminar de favoritos)<br><br/>Para el despliegue de este proyecto he utilizado GitHub pages.<br/><br/>Disfrútalo!",
   date: new Date("2024-11-07"),
 };
 
@@ -82,7 +82,7 @@ const adalabModulo3EvaluacionIntermedia = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto individual.<br/><br/>Es una web realizada con React, donde el usuario puede buscar países por nombre y continente.<br/><br/>El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional.<br/><br/>A destacar:<br/>- uso de JSON con el contenido de los países<br/>- useState para manejar el estado y renderizar los componentes automáticamente<br/>- utilización de una lógica de filtrado flexible, que permite combinar múltiples criterios de forma efectiva.<br/><br/>Descubre los países de cada continente!",
+    "Este proyecto es la <b>evaluación intermedia</b> del módulo 3 de React de Adalab.<br/><br/>Es una web realizada con <b>React</b>, donde el usuario puede buscar países por nombre y continente.<br/><br/>El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional.<br/><br/>A destacar:<br/>- uso de JSON con el contenido de los países<br/>- useState para manejar el estado y renderizar los componentes automáticamente<br/>- utilización de una lógica de filtrado flexible, que permite combinar múltiples criterios de forma efectiva.<br/><br/>Para el despliegue de este proyecto he utilizado GitHub pages.<br/><br/>Descubre los países de cada continente!",
   date: new Date("2024-11-21"),
 };
 
