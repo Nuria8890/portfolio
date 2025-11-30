@@ -5,6 +5,12 @@
   &__img {
     border-radius: 10%;
     width: 90vw;
+    @media (min-width: 768px) {
+      width: 70vw;
+    }
+    @media (min-width: 1024px) {
+      width: 30vw;
+    }
   }
   &__text {
     margin: 20px;
@@ -12,5 +18,14 @@
     flex-direction: column;
     gap: 10px;
     text-align: justify;
+    @media (min-width: 1024px) {
+      width: 40vw;
+    }
+  }
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-around;
+    height: 100%;
   }
 }
