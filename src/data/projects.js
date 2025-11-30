@@ -43,7 +43,7 @@ const adalabModulo2Grupal = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web maquetada con HTML y SCSS que utiliza Vite para automatizar tareas, y toda su funcionalidad está hecha con JavaScript vanilla.<br/>El usuario puede crear tarjetas personalizadas con temática ToyStory.<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+    "Este proyecto es el segundo <b>trabajo en equipo</b> realizado en el bootcamp de Adalab, donde desarrollé esta web junto con mis compis <a href='https://github.com/Marta-ms'target='blank' rel='noopener noreferrer'>Marta<a/>, <a href='https://github.com/Tania-nad'target='blank' rel='noopener noreferrer'>Tania<a/> y <a href='https://github.com/Mariaguerrero95'target='blank' rel='noopener noreferrer'>María<a/>.<br/><br/>Es una aplicación web maquetada con <b>HTML</b> y <b>SCSS</b> que utiliza <b>Vite</b> para automatizar tareas, y toda su funcionalidad está hecha con <b>JavaScript vanilla</b>.<br/>Gracias a esta aplicación el usuario puede crear y enviar tarjetas personalizadas con temática de ToyStory.<br/><br/><u>Objetivos conseguidos</u>:<br/>- uso de variables, estructuras de datos, condicionales y funciones.<br/>- manipulación del DOM y respuesta a eventos del usuario.<br/>- manejo de estructuras de datos complejas, con arrays y objetos.<br/>- peticiones al servidor (fetch).<br/>- almacenaje de datos en local (localStorage).<br/><br/> Hemos utilizado control de versiones con <b>Git y GitHub</b> para mejorar la organización, y la aplicación ha sido desplegada utilizado GitHub pages.",
   date: new Date("2024-11-13"),
 };
 
