@@ -1,0 +1,15 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__img {
+    border-radius: 10%;
+    width: 90vw;
+  }
+  &__text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
