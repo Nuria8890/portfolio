@@ -17,7 +17,7 @@ const adalabModulo1Grupal = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto grupal realizado con tres compañeras más.<br/><br/>Es una web muy sencilla maquetada únicamente con HTMLy SCSS, y que utiliza Vite como herramienta de automatización de tareas.<br/>Tiene un diseño responsive que permite que la web se adapte a distintos dispositivos.<br/><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
+    "Este proyecto es mi primera experiencia de <b>trabajo en equipo</b> relacionada con la programación, donde desarrollé esta web, junto con mis compis <a href='https://github.com/Tania-nad'target='blank' rel='noopener noreferrer'>Tania<a/>, <a href='https://github.com/kendaltw'target='blank' rel='noopener noreferrer'>Kendal<a/> y <a href='https://github.com/mee96'target='blank' rel='noopener noreferrer'>Carme<a/>, partiendo de un diseño proporcionado a través de <b>Zeplin</b>.<br/><br/>Es una web muy sencilla maquetada únicamente con <b>HTML</b> y <b>SCSS</b>, y que utiliza <b>Vite</b> como herramienta de automatización de tareas.<br/>Tiene un diseño <b>responsive</b> que permite que la web se adapte a distintos dispositivos, y utilizando control de versiones con <b>Git y GitHub</b> hemos aprendido a mejorar la comunicación entre nosotras.<br><br/>Para el despliegue de este proyecto hemos utilizado GitHub pages.",
   date: new Date("2024-10-11"),
 };
 
