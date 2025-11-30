@@ -56,7 +56,7 @@ const adalabModulo2EvaluacionIntermedia = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto individual.<br/><br/>Es una web realizada con HTML, CSS y JavaScript vanilla.<br/><br/>Es un juego donde el usuario intenta adivinar un número aleatorio.<br/><br/>El código está bien organizado en funciones específicas, lo que facilita su comprensión y mantenimiento.<br/><br/>He utilizado:<br/>- 'strict mode' para evitar errores comunes y mejorar la seguridad del código,<br/>- métodos de JS para crear un número aleatorio,<br/>- selectores de clase para interactuar con el DOM,<br/>- condicionales y funciones manejadoras para manejar eventos.<br/><br/>Disfrútalo! 👾 🎮",
+    "Este proyecto es la <b>evaluación intermedia</b> del módulo 2 de JavaScript de Adalab.<br/><br/>Es un juego realizado con <b>HTML</b>, <b>CSS</b> y <b>JavaScript vanilla</b>, donde el usuario intenta adivinar un número generado de forma aleatoria.<br/><br/>El código está bien organizado en funciones específicas, lo que facilita su comprensión y mantenimiento.<br/><br/>Para crear esta web he utilizado:<br/>- 'strict mode' para evitar errores comunes y mejorar la seguridad del código,<br/>- métodos de JS para crear un número aleatorio,<br/>- selectores de clase para interactuar con el DOM,<br/>- condicionales y funciones manejadoras para manejar eventos.<br><br/>Para el despliegue de este proyecto he utilizado GitHub pages.<br/><br/>Disfrútalo! 👾 🎮",
   date: new Date("2024-10-25"),
 };
 
