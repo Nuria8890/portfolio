@@ -95,7 +95,7 @@ const adalabModulo3Evaluacion = {
   smallText:
     "Este será el texto corto donde indique qué he aprendido al realizar el proyecto y con qué finalidad lo hice.",
   longText:
-    "Proyecto individual.<br/><br/>Es una web realizada con React, donde el usuario puede filtrar personajes de la serie Rick&Morty por nombre, especie y estado.<br/><br/>El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional.<br/><br/>A destacar:<br/>- API de rickandmortyapi.com<br/>- uso adecuado de useState y useEffect, que permite manejar el estado y los efectos secundarios de manera efectiva<br/>- almacenamiento de datos en localStorage<br/><br/>Wubba lubba dub dub!",
+    "Este proyecto es la <b>evaluación final</b> del módulo de React de Adalab.<br/><br/>Es una web realizada con <b>React</b>, donde el usuario puede filtrar personajes de la serie Rick&Morty por nombre, especie y estado.<br/><br/>El código está bien organizado en componentes, lo que ayuda a que sea claro, fácil de mantener y funcional.<br/><br/>A destacar:<br/>- uso de API de rickandmortyapi.com<br/>- uso adecuado de useState y useEffect, que permite manejar el estado y los efectos secundarios de manera efectiva<br/>- almacenamiento de datos en el navegador (localStorage)<br/><br/>Para el despliegue de este proyecto he utilizado GitHub pages.<br/><br/>Wubba lubba dub dub!",
   date: new Date("2024-11-28"),
 };
 
