@@ -10,11 +10,13 @@ function Project_details({ arrayProjects }) {
 
   return (
     <section className="detailsContainer">
-      <img
-        className="detailsContainer__img"
-        src={selectedProject.photo}
-        alt={selectedProject.title}
-      />
+      <a href={selectedProject.url} target="_blank" rel="noopener noreferrer">
+        <img
+          src={selectedProject.photo}
+          alt={selectedProject.title}
+          className="detailsContainer__img"
+        />
+      </a>
       <div className="detailsContainer__text">
         <h3>{selectedProject.title}</h3>
         <span>
@@ -26,6 +28,23 @@ function Project_details({ arrayProjects }) {
         </span>
 
         <p dangerouslySetInnerHTML={{ __html: selectedProject.longText }}></p>
+
+        <div className="detailsContainer__text__ancles">
+          <a
+            href={selectedProject.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver proyecto
+          </a>
+          <a
+            href={selectedProject.urlCode}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver código
+          </a>
+        </div>
       </div>
     </section>
   );
