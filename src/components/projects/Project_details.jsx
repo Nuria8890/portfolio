@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import "@/styles/layout/projects/Project_details.scss";
 
 function Project_details({ arrayProjects }) {
@@ -10,6 +10,11 @@ function Project_details({ arrayProjects }) {
 
   return (
     <section className="detailsContainer">
+      <Link to={"/projects"}>
+        {" "}
+        <p className="detailsContainer__back">&lt; Volver</p>
+      </Link>
+
       <a href={selectedProject.url} target="_blank" rel="noopener noreferrer">
         <img
           src={selectedProject.photo}
@@ -17,6 +22,7 @@ function Project_details({ arrayProjects }) {
           className="detailsContainer__img"
         />
       </a>
+
       <div className="detailsContainer__text">
         <h3>{selectedProject.title}</h3>
         <span>
