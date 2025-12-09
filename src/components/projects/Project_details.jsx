@@ -15,7 +15,12 @@ function Project_details({ arrayProjects }) {
         <p className="detailsContainer__back">&lt; Volver</p>
       </Link>
 
-      <a href={selectedProject.url} target="_blank" rel="noopener noreferrer">
+      <a
+        href={selectedProject.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="detailsContainer__img"
+      >
         <img
           src={selectedProject.photo}
           alt={selectedProject.title}
