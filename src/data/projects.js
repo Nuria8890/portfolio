@@ -7,6 +7,7 @@ import PhotoA3Int from "@/assets/a3Int.jpeg";
 import PhotoA3y4Gru from "@/assets/a3y4Gru.jpeg";
 import PhotoA3Ev from "@/assets/a3Ev.jpeg";
 import PhotoA4Ev from "@/assets/a4Ev.jpeg";
+import PhotoCashCalendar from "@/assets/cashCalendar.png";
 import PhotoBolsalea from "@/assets/bolsalea.png";
 
 const adalabModulo1Grupal = {
@@ -143,12 +144,24 @@ const adalabModulo4Evaluacion = {
   date: new Date("2024-12-20"),
 };
 
-const bolsalea = {
+const cashCalendar = {
   id: 10,
+  url: "https://cash-calendar.callepuzzle.com/",
+  urlCode: "https://github.com/CallePuzzle/cash-calendar",
+  photo: PhotoCashCalendar,
+  tech: "NextJs",
+  title: "Cash Calendar",
+  smallText: "Texto corto",
+  longText: "Texto largo.",
+  date: new Date(),
+};
+
+const bolsalea = {
+  id: 11,
   url: "https://www.bolsalea.com/",
   urlCode: "",
   photo: PhotoBolsalea,
-  tech: "Data Base",
+  tech: "JavaScript vanilla",
   title: "Bolsalea",
   smallText:
     "Tienda online de bolsas de papel y tela.<br/><br/>Es un proyecto por el que me contrataron para realizar esta web en un mes.",
@@ -172,6 +185,7 @@ const objetProjects = {
   a3Ev: adalabModulo3Evaluacion,
   a3y4Gru: adalabModulo3y4Grupal,
   a4Ev: adalabModulo4Evaluacion,
+  cashCalendar: cashCalendar,
   bolsalea: bolsalea,
 };
 
