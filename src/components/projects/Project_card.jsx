@@ -10,12 +10,6 @@ function Project_card({ projectToRender }) {
         to={`/projects/${projectToRender.id}`}
         end
       >
-        {/* <a
-        href={projectToRender.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="projectsContainer__project"
-      > */}
         <span className="projectsContainer__project__title">
           {projectToRender.title}
         </span>
@@ -39,7 +33,6 @@ function Project_card({ projectToRender }) {
           </span> */}
         </div>
       </NavLink>
-      {/* </a> */}
     </li>
   );
 }
