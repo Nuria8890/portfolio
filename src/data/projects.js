@@ -7,6 +7,7 @@ import PhotoA3Int from "@/assets/a3Int.jpeg";
 import PhotoA3y4Gru from "@/assets/a3y4Gru.jpeg";
 import PhotoA3Ev from "@/assets/a3Ev.jpeg";
 import PhotoA4Ev from "@/assets/a4Ev.jpeg";
+import PhotoBolsalea from "@/assets/bolsalea.png";
 
 const adalabModulo1Grupal = {
   id: 1,
@@ -142,6 +143,20 @@ const adalabModulo4Evaluacion = {
   date: new Date("2024-12-20"),
 };
 
+const bolsalea = {
+  id: 10,
+  url: "https://www.bolsalea.com/",
+  urlCode: "",
+  photo: PhotoBolsalea,
+  tech: "Data Base",
+  title: "Bolsalea",
+  smallText:
+    "Tienda online de bolsas de papel y tela.<br/><br/>Es un proyecto por el que me contrataron para realizar esta web en un mes.",
+  longText:
+    "Este proyecto es mi primer <b>trabajo real</b> como desarrolladora front-end. Se trata de la renovación de la página web de la empresa, realizada junto a un equipo compuesto por otra desarrolladora front-end y un back-end.<br/><br/>He desarrollado 15 pantallas, con un enfoque en SEO, orientadas a personas con capacidades diferentes, utilizando <b>HTML</b>, <b>CSS</b>, <b>SASS</b> y <b>JavaScript vanilla</b>, y la librería de <b>SwipperJs</b> para implementar sliders.<br/><br/>También colaboré con el equipo de diseño a través de <b>Figma</b>.",
+  date: new Date("2025-08-31"),
+};
+
 /* TODO: 
   - sacar los proyectitos de 42Madrid y de Platzi de cada carpeta para poder crear una url de cada uno
   - terminar los pair programming de aladab y crear las url de cada uno
@@ -157,6 +172,7 @@ const objetProjects = {
   a3Ev: adalabModulo3Evaluacion,
   a3y4Gru: adalabModulo3y4Grupal,
   a4Ev: adalabModulo4Evaluacion,
+  bolsalea: bolsalea,
 };
 
 export default objetProjects;

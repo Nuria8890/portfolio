@@ -48,6 +48,9 @@ function Project_details({ arrayProjects }) {
           >
             Ver demo
           </a>
+          {/* TODO: hacer la lógica de: 
+          si urlCode === "" --> que salga un prompt diciendo que el código es privado
+          */}
           <a
             href={selectedProject.urlCode}
             target="_blank"
