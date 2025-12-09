@@ -46,7 +46,7 @@ function Project_details({ arrayProjects }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ver proyecto
+            Ver demo
           </a>
           <a
             href={selectedProject.urlCode}
