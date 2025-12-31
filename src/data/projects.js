@@ -151,8 +151,10 @@ const cashCalendar = {
   photo: PhotoCashCalendar,
   tech: "NextJs",
   title: "Cash Calendar",
-  smallText: "Texto corto",
-  longText: "Texto largo.",
+  smallText:
+    "Colaboración con Callepuzzle, una asociación tecnológica sin ánimo de lucro.<br/><br/>Estamos desarrollando este proyecto entre dos personas en nuestros ratos libres.",
+  longText:
+    "Se trata de una aplicación web que permitirá a los usuarios registrar sus gastos diarios y visualizar la evolución de su economía a través de diversas gráficas.",
   date: new Date(),
 };
 
