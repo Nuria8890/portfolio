@@ -3,7 +3,7 @@ import ResetButton from "./ResetButton";
 import FilterByTech from "./FilterByTech";
 
 function Filters({
-  onChangeInpuntTech,
+  onChangeInputTech,
   onClickReset,
   arrayProjects,
   selectedTech,
@@ -19,7 +19,7 @@ function Filters({
   return (
     <form className="filters">
       <FilterByTech
-        onChangeInpuntTech={onChangeInpuntTech}
+        onChangeInputTech={onChangeInputTech}
         technologies={technologies}
         selectedTech={selectedTech}
       />

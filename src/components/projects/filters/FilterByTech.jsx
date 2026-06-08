@@ -1,6 +1,6 @@
-function FilterByTech({ onChangeInpuntTech, technologies, selectedTech }) {
+function FilterByTech({ onChangeInputTech, technologies, selectedTech }) {
   const handleChangeInput = (event) => {
-    onChangeInpuntTech(event.target.value);
+    onChangeInputTech(event.target.value);
   };
 
   const technology = technologies.map((technology, i) => {

@@ -1,13 +1,12 @@
-function Nav_elements({ classList, classElement }) {
-  const elements = ["Sobre mi", "Proyectos", "Contacta"];
+function Nav_elements({ classList, classElement, elements }) {
   return (
-    <li className={classList}>
+    <ul className={classList}>
       {elements.map((element) => (
-        <ul className={classElement} key={element}>
-          {element}
-        </ul>
+        <li className={classElement} key={element.id}>
+          {element.name}
+        </li>
       ))}
-    </li>
+    </ul>
   );
 }
 

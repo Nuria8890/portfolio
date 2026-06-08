@@ -3,7 +3,7 @@ import Projects_list from "./Projects_list";
 
 function projects({
   arrayProjects,
-  onChangeInpuntTech,
+  onChangeInputTech,
   selectedTech,
   onClickReset,
 }) {
@@ -13,13 +13,13 @@ function projects({
     filteredProjects = arrayProjects;
   } else {
     filteredProjects = arrayProjects.filter(
-      (project) => project.tech === selectedTech
+      (project) => project.tech === selectedTech,
     );
   }
   return (
     <>
       <Filters
-        onChangeInpuntTech={onChangeInpuntTech}
+        onChangeInputTech={onChangeInputTech}
         onClickReset={onClickReset}
         arrayProjects={arrayProjects}
         selectedTech={selectedTech}

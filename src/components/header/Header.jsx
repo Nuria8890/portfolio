@@ -10,6 +10,7 @@ function Header({
   menuIsOpen,
   handleToogleMode,
   isModeLight,
+  menuNavElements,
 }) {
   return (
     <header className="header">
@@ -26,12 +27,17 @@ function Header({
         handleToggleMenu={handleToggleMenu}
         menuIsOpen={menuIsOpen}
         classList={"header__nav__list"}
+        menuNavElements={menuNavElements}
       />
+
       <nav className="header__nav">
-        <Nav_elements
-          classList={"header__nav__list"}
-          classElement={"header__nav__list__element"}
-        />
+        {menuNavElements.length > 0 && (
+          <Nav_elements
+            classList={"header__nav__list"}
+            classElement={"header__nav__list__element"}
+            elements={menuNavElements}
+          />
+        )}
       </nav>
     </header>
   );

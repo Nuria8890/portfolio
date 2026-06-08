@@ -23,7 +23,25 @@ function App() {
     console.log("click en modo claro/oscuro");
   };
 
-  const changeInpuntTech = (value) => {
+  const menuNavElements = [
+    {
+      id: "aboutMe",
+      name: "Sobre mi",
+      path: "/aboutme",
+    },
+    {
+      id: "projects",
+      name: "Proyectos",
+      path: "/projects",
+    },
+    {
+      id: "contact",
+      name: "Contacta",
+      path: "/contact",
+    },
+  ];
+
+  const changeInputTech = (value) => {
     setSelectedTech(value);
   };
 
@@ -36,6 +54,7 @@ function App() {
   return (
     <div className={`root ${isModeLight ? "mode__light" : "mode__dark"}`}>
       <Header
+        menuNavElements={menuNavElements}
         handleToggleMenu={toggleMenu}
         menuIsOpen={menuIsOpen}
         handleToogleMode={toggleMode}
@@ -50,7 +69,7 @@ function App() {
               element={
                 <Projects
                   arrayProjects={arrayProjects}
-                  onChangeInpuntTech={changeInpuntTech}
+                  onChangeInputTech={changeInputTech}
                   selectedTech={selectedTech}
                   onClickReset={clickReset}
                 />

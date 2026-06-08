@@ -3,7 +3,12 @@ import { CgMenuRound } from "react-icons/cg";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import Nav_elements from "./Nav_elements";
 
-function Menu_hamburguesa({ handleToggleMenu, menuIsOpen, classList }) {
+function Menu_hamburguesa({
+  handleToggleMenu,
+  menuIsOpen,
+  classList,
+  menuNavElements,
+}) {
   const openCloseMenu = menuIsOpen ? "menu__open" : "menu__close";
 
   return (
@@ -18,6 +23,7 @@ function Menu_hamburguesa({ handleToggleMenu, menuIsOpen, classList }) {
         <Nav_elements
           classList={classList}
           classElement={"menu__nav-element"}
+          elements={menuNavElements}
         />
       </nav>
       {menuIsOpen && (
