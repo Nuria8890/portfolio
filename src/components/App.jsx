@@ -1,6 +1,7 @@
 import "@/styles/App.scss";
 import objetProjects from "@/data/projects";
 import Header from "@/components/header/Header";
+import AboutMe from "@/components/aboutme/AboutMe";
 import Projects from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";
 import { useState } from "react";
@@ -63,7 +64,9 @@ function App() {
       <main>
         <Routes>
           {/* <About_me /> */}
-
+          <Route path="/">
+            <Route index element={<AboutMe />} />
+          </Route>
           <Route path="/projects">
             <Route
               index
