@@ -27,7 +27,7 @@ function App() {
     {
       id: "aboutMe",
       name: "Sobre mi",
-      path: "/aboutme",
+      path: "/",
     },
     {
       id: "projects",
@@ -63,6 +63,7 @@ function App() {
       <main>
         <Routes>
           {/* <About_me /> */}
+
           <Route path="/projects">
             <Route
               index
