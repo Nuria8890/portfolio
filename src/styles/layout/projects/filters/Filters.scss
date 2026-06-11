@@ -11,14 +11,7 @@
     border-bottom: 3px $secondary-color solid;
   }
   &__resetButton {
-    color: $quaternary-color;
-    padding: 5px;
-    border-radius: 20%;
-    background-color: $secondary-color;
-    &:active {
-      box-shadow: 1px 1px $first-font-color;
-      transform: scale(0.9);
-    }
+    @include button-link-style;
   }
   @media (min-width: 768px) {
     flex-direction: column;
