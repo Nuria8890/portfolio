@@ -9,3 +9,24 @@ $quaternary-color: darkblue;
 $first-font-color: black;
 
 $secon-font-color: white;
+
+// Mixin reutilizable para botones y enlaces
+@mixin button-link-style {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  background-color: $secondary-color;
+  color: $first-font-color;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-2px);
+    background-color: lighten($secondary-color, 5%);
+  }
+}
