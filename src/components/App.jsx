@@ -3,6 +3,7 @@ import objetProjects from "@/data/projects";
 import Header from "@/components/header/Header";
 import AboutMe from "@/components/aboutme/AboutMe";
 import Projects from "@/components/projects/Projects";
+import Contact from "./contact/Contact";
 import Footer from "@/components/footer/Footer";
 import { useState } from "react";
 import Project_details from "./projects/Project_details";
@@ -63,7 +64,6 @@ function App() {
       />
       <main>
         <Routes>
-          {/* <About_me /> */}
           <Route path="/">
             <Route index element={<AboutMe />} />
           </Route>
@@ -84,7 +84,9 @@ function App() {
               element={<Project_details arrayProjects={arrayProjects} />}
             />
           </Route>
-          {/* <Contact /> */}
+          <Route path="/contact">
+            <Route index element={<Contact />} />
+          </Route>
         </Routes>
       </main>
       <Footer />
