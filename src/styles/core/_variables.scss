@@ -18,6 +18,8 @@ $secon-font-color: white;
   background-color: $secondary-color;
   color: $first-font-color;
   text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
   font-weight: bold;
   transition:
     transform 0.2s ease,
