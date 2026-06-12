@@ -62,7 +62,7 @@ function App() {
 
   const changeContactForm = (event) => {
     const { name, value } = event.target;
-    setContactFormData((prev) => ({ ...prev, [name]: value }));
+    setContactFormData((previous) => ({ ...previous, [name]: value }));
   };
 
   const submitContactForm = () => {
@@ -70,7 +70,7 @@ function App() {
     setTimeout(() => {
       setContactFormData({ name: "", email: "", subject: "", message: "" });
       setContactFormSubmitted(false);
-    }, 4000);
+    }, 9000);
   };
 
   const arrayProjects = Object.values(objetProjects);

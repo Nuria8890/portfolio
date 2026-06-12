@@ -12,6 +12,17 @@ function Contact({
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    const { name, email, subject, message } = formData;
+    const to = "nuria.campo7@gmail.com";
+    const body = encodeURIComponent(
+      `Nombre: ${name}\nEmail: ${email}\n\n${message}`,
+    );
+    const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(
+      subject,
+    )}&body=${body}`;
+
+    window.open(mailtoLink, "_blank");
     submitContactForm();
   };
 
@@ -24,8 +35,8 @@ function Contact({
       </p>
 
       {submitted ? (
-        <div className="contact__success">
-          <p>¡Mensaje enviado! Gracias por contactar.</p>
+        <div className="contact__waiting">
+          <p>Espera mientras se abre tu aplicación de correo ¡Gracias!</p>
         </div>
       ) : (
         <form className="contact__form" onSubmit={handleSubmit}>
