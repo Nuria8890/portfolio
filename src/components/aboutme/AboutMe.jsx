@@ -26,16 +26,18 @@ function AboutMe() {
 
             <p>
               Vengo de la <strong>contabilidad</strong>, donde aprendí a ser
-              metódica, perseverante y a no rendirme nunca hasta que los números
-              cuadren al céntimo. He trasladado esas mismas habilidades al
-              desarrollo: me gusta que el código esté limpio, bien estructurado
-              y que <strong>funcione exactamente como debe</strong>.
+              como una hormiguita: metódica, perseverante y a no rendirme nunca,
+              hasta que los números cuadren al céntimo. <br />
+              He trasladado esas mismas habilidades al desarrollo: me gusta que
+              el código esté limpio, bien estructurado y que{" "}
+              <strong>funcione exactamente como debe</strong>.
             </p>
 
             <p>
-              No soy diseñadora —mi superpoder es <strong>implementar</strong>—
-              pero me apasiona que una interfaz no solo se vea bien, sino que
-              sea intuitiva, accesible, responsive y con atención al detalle.
+              No soy diseñadora. Transformo los diseños de otros en código, en
+              un producto real donde cada píxel está en su sitio, cada botón
+              responde como esperas y cada interfaz se adapta a patallas de
+              cualquier dispositivo.
             </p>
           </div>
 
@@ -43,7 +45,7 @@ function AboutMe() {
             <h2 className="aboutMe__stackTitle">Stack actual</h2>
             <ul className="aboutMe__stackList">
               <li>HTML5 · CSS3 · Sass</li>
-              <li>JavaScript (ES6+) · React</li>
+              <li>JavaScript · React</li>
               <li>TypeScript (en progreso)</li>
               <li>Node.js · SQL</li>
               <li>AWS Cloud Practitioner</li>
