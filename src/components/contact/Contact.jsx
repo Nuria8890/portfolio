@@ -1,28 +1,18 @@
-import { useState } from "react";
 import "@/styles/layout/contact/Contact.scss";
 
-function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const [submitted, setSubmitted] = useState(false);
-
+function Contact({
+  formData,
+  submitContactForm,
+  submitted,
+  changeContactForm,
+}) {
   const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    changeContactForm(event);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setSubmitted(false);
-    }, 4000);
+    submitContactForm();
   };
 
   return (

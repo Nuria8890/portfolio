@@ -16,6 +16,15 @@ function App() {
 
   const [selectedTech, setSelectedTech] = useState("");
 
+  const [contactFormData, setContactFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const [contactFormSubmitted, setContactFormSubmitted] = useState(false);
+
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
   };
@@ -49,6 +58,19 @@ function App() {
 
   const clickReset = () => {
     setSelectedTech("");
+  };
+
+  const changeContactForm = (event) => {
+    const { name, value } = event.target;
+    setContactFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const submitContactForm = () => {
+    setContactFormSubmitted(true);
+    setTimeout(() => {
+      setContactFormData({ name: "", email: "", subject: "", message: "" });
+      setContactFormSubmitted(false);
+    }, 4000);
   };
 
   const arrayProjects = Object.values(objetProjects);
@@ -85,7 +107,17 @@ function App() {
             />
           </Route>
           <Route path="/contact">
-            <Route index element={<Contact />} />
+            <Route
+              index
+              element={
+                <Contact
+                  formData={contactFormData}
+                  submitContactForm={submitContactForm}
+                  submitted={contactFormSubmitted}
+                  changeContactForm={changeContactForm}
+                />
+              }
+            />
           </Route>
         </Routes>
       </main>
