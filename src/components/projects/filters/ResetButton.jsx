@@ -5,7 +5,7 @@ function ResetButton({ onClickReset }) {
   };
   return (
     <button className="filters__resetButton" onClick={handleClickReset}>
-      Reset
+      Mostrar todos
     </button>
   );
 }

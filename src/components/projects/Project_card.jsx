@@ -16,7 +16,7 @@ function Project_card({ projectToRender }) {
         <img
           className="projectsContainer__project__img"
           src={projectToRender.photo}
-          alt="imagen"
+          alt={`Captura del proyecto ${projectToRender.title}`}
         />
         <span className="projectsContainer__project__date">
           {projectToRender.date.toLocaleDateString("es-ES", {

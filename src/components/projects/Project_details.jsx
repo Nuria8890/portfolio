@@ -11,8 +11,7 @@ function Project_details({ arrayProjects }) {
   return (
     <section className="detailsContainer">
       <Link to={"/projects"}>
-        {" "}
-        <p className="detailsContainer__back">&lt; Volver</p>
+        <span className="detailsContainer__back">&lt; Volver</span>
       </Link>
 
       <a
