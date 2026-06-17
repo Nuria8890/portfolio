@@ -1,38 +1,39 @@
-// import { CiHeart } from "react-icons/ci";
-
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 function Project_card({ projectToRender }) {
+  const formattedDate = projectToRender.date.toLocaleDateString("es-ES", {
+    year: "numeric",
+    month: "long",
+  });
+
   return (
-    <li>
-      <NavLink
-        className="projectsContainer__project"
+    <li className="projectCard">
+      <Link
+        className="projectCard__link"
         to={`/projects/${projectToRender.id}`}
-        end
+        aria-label={`Ver detalle de ${projectToRender.title}`}
       >
-        <span className="projectsContainer__project__title">
-          {projectToRender.title}
-        </span>
-        <img
-          className="projectsContainer__project__img"
-          src={projectToRender.photo}
-          alt={`Captura del proyecto ${projectToRender.title}`}
-        />
-        <span className="projectsContainer__project__date">
-          {projectToRender.date.toLocaleDateString("es-ES", {
-            year: "numeric",
-            month: "long",
-          })}
-        </span>
-        <div className="projectsContainer__project__text">
-          <p
-            dangerouslySetInnerHTML={{ __html: projectToRender.smallText }}
-          ></p>
-          {/* <span>
-            <CiHeart />
-          </span> */}
+        <div className="projectCard__media">
+          <img
+            className="projectCard__image"
+            src={projectToRender.photo}
+            alt={`Captura del proyecto ${projectToRender.title}`}
+            loading="lazy"
+          />
+          <span className="projectCard__tag">{projectToRender.tech}</span>
         </div>
-      </NavLink>
+
+        <div className="projectCard__content">
+          <h3 className="projectCard__title">{projectToRender.title}</h3>
+          <time className="projectCard__date" dateTime={projectToRender.date.toISOString()}>
+            {formattedDate}
+          </time>
+          <div
+            className="projectCard__description"
+            dangerouslySetInnerHTML={{ __html: projectToRender.smallText }}
+          />
+        </div>
+      </Link>
     </li>
   );
 }

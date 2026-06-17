@@ -6,9 +6,17 @@ $bg-light: #f8fafc;
 
 $bg-dark: #0f172a;
 
-$text-dark: black;
+$text-dark: #000000;
 
-$text-light: white;
+$text-light: #ffffff;
+
+// Superficies (tarjetas, paneles, modales)
+$surface-light: #e7c3e5;
+$surface-dark: #314e7b;
+
+// Sombras
+$shadow-dark: #314e7b;
+$shadow-light: #e7c3e5;
 
 // Mixin reutilizable para botones y enlaces
 @mixin button-link-style {
