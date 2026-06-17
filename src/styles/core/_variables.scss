@@ -1,14 +1,14 @@
-$primary-color: #3498db;
+$primary-color: #2563eb;
 
-$secondary-color: #ffc0cb;
+$secondary-color: #f472b6;
 
-$terciary-color: lightblue;
+$bg-light: #f8fafc;
 
-$quaternary-color: darkblue;
+$bg-dark: #0f172a;
 
-$first-font-color: black;
+$text-dark: black;
 
-$secon-font-color: white;
+$text-light: white;
 
 // Mixin reutilizable para botones y enlaces
 @mixin button-link-style {
@@ -16,7 +16,7 @@ $secon-font-color: white;
   padding: 0.7rem 1.5rem;
   border-radius: 8px;
   background-color: $secondary-color;
-  color: $first-font-color;
+  color: $text-dark;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;

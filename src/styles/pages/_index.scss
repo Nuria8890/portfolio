@@ -7,23 +7,23 @@
 
   font-family: "Elms Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 700;
   font-style: normal;
 }
 
 .mode {
   &__light {
-    background-color: $terciary-color;
-    color: $first-font-color;
+    background-color: $bg-light;
+    color: $text-dark;
     a {
-      color: $first-font-color;
+      color: $text-dark;
     }
   }
   &__dark {
-    background-color: $quaternary-color;
-    color: $secon-font-color;
+    background-color: $bg-dark;
+    color: $text-light;
     a {
-      color: $secon-font-color;
+      color: $text-light;
     }
   }
 }

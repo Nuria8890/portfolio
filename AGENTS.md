@@ -14,15 +14,15 @@ El idioma principal del proyecto es **español** (textos de UI, comentarios y do
 
 ## Technology stack
 
-| Capa | Tecnología |
-|------|-----------|
-| Framework UI | React 19 (JSX) |
-| Routing | React Router 7 (`react-router`) |
-| Bundler / dev server | Vite 7 |
-| Estilos | Sass (SCSS) |
-| Iconos | React Icons (`react-icons`) |
-| Linting | ESLint 9 + `eslint-plugin-react-hooks` + `eslint-plugin-react-refresh` |
-| Despliegue | `gh-pages` (GitHub Pages) |
+| Capa                 | Tecnología                                                             |
+| -------------------- | ---------------------------------------------------------------------- |
+| Framework UI         | React 19 (JSX)                                                         |
+| Routing              | React Router 7 (`react-router`)                                        |
+| Bundler / dev server | Vite 7                                                                 |
+| Estilos              | Sass (SCSS)                                                            |
+| Iconos               | React Icons (`react-icons`)                                            |
+| Linting              | ESLint 9 + `eslint-plugin-react-hooks` + `eslint-plugin-react-refresh` |
+| Despliegue           | `gh-pages` (GitHub Pages)                                              |
 
 ---
 
@@ -58,13 +58,13 @@ El idioma principal del proyecto es **español** (textos de UI, comentarios y do
 
 Todos los comandos disponibles están definidos en `package.json`:
 
-| Comando | Descripción |
-|---------|-------------|
-| `npm run dev` | Inicia el servidor de desarrollo de Vite |
-| `npm run build` | Genera la build de producción en `dist/` |
-| `npm run preview` | Previsualiza la build de producción localmente |
-| `npm run lint` | Ejecuta ESLint sobre todo el proyecto |
-| `npm run deploy` | Despliega el contenido de `dist/` a GitHub Pages |
+| Comando           | Descripción                                      |
+| ----------------- | ------------------------------------------------ |
+| `npm run dev`     | Inicia el servidor de desarrollo de Vite         |
+| `npm run build`   | Genera la build de producción en `dist/`         |
+| `npm run preview` | Previsualiza la build de producción localmente   |
+| `npm run lint`    | Ejecuta ESLint sobre todo el proyecto            |
+| `npm run deploy`  | Despliega el contenido de `dist/` a GitHub Pages |
 
 **No hay tests automatizados** en el proyecto actualmente.
 
@@ -106,7 +106,7 @@ Todos los comandos disponibles están definidos en `package.json`:
   - Bloque: `.header`, `.projectsContainer`
   - Elemento: `.header__nav__list`, `.projectsContainer__project__title`
   - Modificador: `.mode__light`, `.mode__dark`, `.menu__open`, `.menu__close`
-- **Variables**: definidas en `src/styles/core/_variables.scss` con nombres semánticos (`$primary-color`, `$secondary-color`, `$terciary-color`, `$quaternary-color`, `$first-font-color`, `$secon-font-color`).
+- **Variables**: definidas en `src/styles/core/_variables.scss` con nombres semánticos (`$primary-color`, `$secondary-color`, `$bg-light`, `$bg-dark`, `$text-dark`, `$text-light`).
 - **Responsive**: media queries con breakpoints en `768px` y `1024px`.
 - **Imports**: se usa `@use` para módulos core y `@import` para variables en archivos parciales.
 
