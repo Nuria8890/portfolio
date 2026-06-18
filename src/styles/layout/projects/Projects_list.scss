@@ -18,6 +18,7 @@
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(3, 1fr);
+    max-width: 1450px;
   }
 }
 
@@ -39,7 +40,7 @@
   &__media {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 13 / 10;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.05);
   }
@@ -109,6 +110,37 @@
       transform: scale(1.05);
     }
   }
+
+  @media (min-width: 1024px) {
+    position: relative;
+    max-width: 400px;
+
+    &__media {
+      aspect-ratio: 4 / 5;
+    }
+
+    &__image {
+      object-fit: fill;
+    }
+
+    &__content {
+      position: absolute;
+      inset: 0;
+      justify-content: flex-end;
+      opacity: 0;
+      visibility: hidden;
+      transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease;
+      z-index: 2;
+    }
+
+    &:hover .projectCard__content,
+    &:focus-within .projectCard__content {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 }
 
 // Modo claro
@@ -121,6 +153,10 @@
   &:focus-within {
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
   }
+
+  &__content {
+    background-color: rgba($surface-light, 0.92);
+  }
 }
 
 // Modo oscuro
@@ -132,5 +168,9 @@
   &:hover,
   &:focus-within {
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+  }
+
+  &__content {
+    background-color: rgba($surface-dark, 0.92);
   }
 }
