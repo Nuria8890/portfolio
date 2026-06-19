@@ -1,12 +1,7 @@
 import Filters from "./filters/Filters";
 import Projects_list from "./Projects_list";
 
-function projects({
-  arrayProjects,
-  onChangeInputTech,
-  selectedTech,
-  onClickReset,
-}) {
+function projects({ arrayProjects, onChangeInputTech, selectedTech }) {
   let filteredProjects;
 
   if (selectedTech === "") {
@@ -19,9 +14,8 @@ function projects({
   return (
     <>
       <Filters
-        onChangeInputTech={onChangeInputTech}
-        onClickReset={onClickReset}
         arrayProjects={arrayProjects}
+        onChangeInputTech={onChangeInputTech}
         selectedTech={selectedTech}
       />
       <section>

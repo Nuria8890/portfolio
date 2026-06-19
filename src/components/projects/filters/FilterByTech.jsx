@@ -1,27 +1,37 @@
-function FilterByTech({ onChangeInputTech, technologies, selectedTech }) {
-  const handleChangeInput = (event) => {
-    onChangeInputTech(event.target.value);
+function FilterByTech({ arrayProjects, onChangeInputTech, selectedTech }) {
+  const uniqueTechnologies = [
+    ...new Set(arrayProjects.map((project) => project.tech)),
+  ];
+  const technologies = ["Todos", ...uniqueTechnologies];
+
+  const handleClickTech = (technology) => {
+    onChangeInputTech(technology === "Todos" ? "" : technology);
   };
 
-  const technology = technologies.map((technology, i) => {
-    return (
-      <option key={i} value={technology}>
-        {technology}
-      </option>
-    );
-  });
-
   return (
-    <select
-      className="filters__filterByTech"
-      id="techFilter"
-      name="techFilter"
-      value={selectedTech}
-      onChange={handleChangeInput}
+    <div
+      className="filters__chips"
+      role="group"
+      aria-label="Filtrar por tecnología"
     >
-      <option value="">Todos los proyectos</option>
-      {technology}
-    </select>
+      {technologies.map((technology) => {
+        const isSelected =
+          technology === "Todos"
+            ? selectedTech === ""
+            : selectedTech === technology;
+        return (
+          <button
+            key={technology}
+            type="button"
+            className={`filters__chip ${isSelected ? "filters__chip--active" : ""}`}
+            onClick={() => handleClickTech(technology)}
+            aria-pressed={isSelected}
+          >
+            {technology}
+          </button>
+        );
+      })}
+    </div>
   );
 }
 

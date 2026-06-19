@@ -56,10 +56,6 @@ function App() {
     setSelectedTech(value);
   };
 
-  const clickReset = () => {
-    setSelectedTech("");
-  };
-
   const changeContactForm = (event) => {
     const { name, value } = event.target;
     setContactFormData((previous) => ({ ...previous, [name]: value }));
@@ -97,7 +93,6 @@ function App() {
                   arrayProjects={arrayProjects}
                   onChangeInputTech={changeInputTech}
                   selectedTech={selectedTech}
-                  onClickReset={clickReset}
                 />
               }
             />

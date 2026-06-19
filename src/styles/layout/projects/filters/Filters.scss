@@ -3,18 +3,60 @@
 .filters {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  &__filterByTech {
-    color: $bg-dark;
-    border-bottom: 3px $secondary-color solid;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+
+  &__chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    width: 100%;
+    max-width: 800px;
   }
-  &__resetButton {
-    @include button-link-style;
+
+  &__chip {
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: 2px solid $secondary-color;
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &--active {
+      background-color: $secondary-color;
+      color: $text-dark;
+    }
   }
+
   @media (min-width: 768px) {
-    flex-direction: column;
-    gap: 10px;
+    margin: 2rem 0;
+
+    &__chip {
+      font-size: 1rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+}
+
+// Modo oscuro: chips inactivos con borde más visible
+.mode__dark .filters__chip:not(.filters__chip--active) {
+  border-color: lighten($secondary-color, 10%);
+
+  &:hover {
+    background-color: rgba($secondary-color, 0.15);
   }
 }

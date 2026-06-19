@@ -16,7 +16,7 @@ const adalabModulo1Grupal = {
   urlCode:
     "https://github.com/Nuria8890/ADALAB-project-module-1-team-2-TechAnimal",
   photo: PhotoA1Gru,
-  tech: "HTML y CSS",
+  tech: "HTML / CSS",
   title: "Tech Animal",
   smallText:
     "Simulación de una página web de presentación de un equipo de trabajo.<br/><br/>Es el primer proyecto en grupo del bootcamp de programación web.",
@@ -31,7 +31,7 @@ const adalabModulo1Evaluacion = {
   urlCode:
     "https://github.com/Nuria8890/ADALAB-modulo-1-evaluacion-final-Nuria8890",
   photo: PhotoA1Ev,
-  tech: "HTML y CSS",
+  tech: "HTML / CSS",
   title: "Comienzos compartidos",
   smallText:
     "Simulación de una página web de productos escolares <br/><br/>Es mi primer proyecto en solitario después de dos semanas y media en el bootcamp de programación web.",
@@ -46,7 +46,7 @@ const adalabModulo2Grupal = {
   urlCode:
     "https://github.com/Nuria8890/ADALAB-project-module-2-team-3-HastaElInfinito",
   photo: PhotoA2Gru,
-  tech: "JavaScript vanilla",
+  tech: "JavaScript Vanilla",
   title: "Hasta el infinito",
   smallText:
     "Crea y envía tarjetas personalizadas con temática ToyStory.<br/><br/>Es el segundo proyecto en grupo del bootcamp de programación web.",
@@ -61,7 +61,7 @@ const adalabModulo2EvaluacionIntermedia = {
   urlCode:
     "https://github.com/Nuria8890/ADALAB-modulo-2-evaluacion-intermedia-Nuria8890",
   photo: PhotoA2Int,
-  tech: "JavaScript vanilla",
+  tech: "JavaScript Vanilla",
   title: "Adivina el número",
   smallText:
     "Disfruta jugando a Adivina el número, un juego realizado en el bootcamp de programación web después de dos semanas aprendiendo JavaScript.",
@@ -76,7 +76,7 @@ const adalabModulo2Evaluacion = {
   urlCode:
     "https://github.com/Nuria8890/ADALAB-modulo-2-evaluacion-final-Nuria8890",
   photo: PhotoA2Ev,
-  tech: "JavaScript vanilla",
+  tech: "JavaScript Vanilla",
   title: "Buscador de series de anime",
   smallText:
     "¡Localiza y guarda tus series de anime favoritas!<br/><br/> He hecho esta aplicación en el bootcamp de programación web, después de casi un mes aprendiendo JavaScript.",
@@ -120,7 +120,7 @@ const adalabModulo3y4Grupal = {
   url: "https://promo-a-module-4-team-2-proyectos.onrender.com/",
   urlCode: "https://github.com/Nuria8890/ADALAB-project-module-4-team-2-4Code",
   photo: PhotoA3y4Gru,
-  tech: "Data Base",
+  tech: "Base de datos",
   title: "4Code",
   smallText:
     "Crea, personaliza y comparte tarjetas para presentar tus proyectos personales o profesionales.<br/><br/>Es el último proyecto en grupo del bootcamp de programación web.",
@@ -135,7 +135,7 @@ const adalabModulo4Evaluacion = {
   urlCode:
     "https://github.com/Nuria8890/ADALAB-modulo-4-evaluacion-final-bpw-Nuria8890",
   photo: PhotoA4Ev,
-  tech: "Data Base",
+  tech: "Base de datos",
   title: "Roller db",
   smallText:
     "Simulación de una base de datos de una tienda de patines ficticia.<br/><br/>Es un proyecto en solitario realizado en el bootcamp de programación web, tras dos semanas aprendiendo back-end.",
@@ -163,7 +163,7 @@ const bolsalea = {
   url: "https://www.bolsalea.com/",
   urlCode: "",
   photo: PhotoBolsalea,
-  tech: "JavaScript vanilla",
+  tech: "JavaScript Vanilla",
   title: "Bolsalea",
   smallText:
     "Tienda online de bolsas de papel y tela.<br/><br/>Es un proyecto por el que me contrataron para realizar esta web en un mes.",
