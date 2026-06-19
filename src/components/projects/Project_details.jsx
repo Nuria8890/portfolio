@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router";
+import notFoundImg from "@/assets/projectNotFound.png";
 import "@/styles/layout/projects/Project_details.scss";
 
 function Project_details({ arrayProjects }) {
@@ -7,6 +8,28 @@ function Project_details({ arrayProjects }) {
   const selectedProject = arrayProjects.find((project) => {
     return project.id === parseInt(idProject);
   });
+
+  if (!selectedProject) {
+    return (
+      <section className="detailsContainer">
+        <Link to={"/projects"}>
+          <span className="detailsContainer__back">&lt; Volver</span>
+        </Link>
+
+        <img
+          src={notFoundImg}
+          alt="Proyecto no encontrado"
+          className="detailsContainer__img"
+        />
+
+        <div className="detailsContainer__text">
+          <p className="detailsContainer__notFound">
+            El proyecto buscado no existe.
+          </p>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="detailsContainer">
