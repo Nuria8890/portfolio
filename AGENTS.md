@@ -66,6 +66,8 @@ Todos los comandos disponibles están definidos en `package.json`:
 | `npm run lint`    | Ejecuta ESLint sobre todo el proyecto            |
 | `npm run deploy`  | Despliega el contenido de `dist/` a GitHub Pages |
 
+> **IMPORTANTE:** Los agentes de código NO deben ejecutar `npm run build` nunca. Si es necesario verificar el proyecto, usar únicamente `npm run lint` o `npm run dev`.
+
 **No hay tests automatizados** en el proyecto actualmente.
 
 ---

@@ -47,16 +47,24 @@ function Project_details({ arrayProjects }) {
           >
             Ver demo
           </a>
-          {/* TODO: hacer la lógica de: 
-          si urlCode === "" --> que salga un prompt diciendo que el código es privado
-          */}
-          <a
-            href={selectedProject.urlCode}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver código
-          </a>
+          {selectedProject.urlCode === "" ? (
+            <span className="tooltipWrapper">
+              <span className="detailsContainer__text__ancles--disabled">
+                Ver código
+              </span>
+              <span className="tooltip tooltip--top">
+                El código de este proyecto es privado
+              </span>
+            </span>
+          ) : (
+            <a
+              href={selectedProject.urlCode}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código
+            </a>
+          )}
         </div>
       </div>
     </section>
