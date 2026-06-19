@@ -1,5 +1,5 @@
 import "@/styles/layout/header/Header.scss";
-import logo from "@/assets/background_cloud.webp";
+import logo from "@/assets/antNC.png";
 import Menu_hamburguesa from "./Menu_hamburguesa";
 import Nav_elements from "./Nav_elements";
 import { FaMoon } from "react-icons/fa";
