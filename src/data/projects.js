@@ -10,6 +10,11 @@ import PhotoA4Ev from "@/assets/a4Ev.jpeg";
 import PhotoCashCalendar from "@/assets/cashCalendar.png";
 import PhotoBolsalea from "@/assets/bolsalea.png";
 import PhotoTodoList from "@/assets/todoList.png";
+import PhotoBurgerMenu from "@/assets/burgerMenu.png";
+import PhotoPrallax from "@/assets/prallax.png";
+import PhotoBgRdm from "@/assets/bgRdm.png";
+import PhotoBalloon from "@/assets/balloon.png";
+import PhotoCalc from "@/assets/calc.png";
 
 const adalabModulo1Grupal = {
   id: 1,
@@ -187,6 +192,76 @@ const todoList = {
   date: new Date("2024-09-6"),
 };
 
+const burgerMenu = {
+  id: 13,
+  url: "https://nuria8890.github.io/42_Madrid/discovery_piscine/cell2/ex01/hamburguesa.html",
+  urlCode:
+    "https://github.com/Nuria8890/42_Madrid/tree/main/discovery_piscine/cell2/ex01",
+  photo: PhotoBurgerMenu,
+  tech: "HTML / CSS",
+  title: "Burger Menu",
+  smallText: "Menú hamburguesa hecho tan solo con HTML y CSS puro",
+  longText:
+    "Con este proyecto he aprendido a utilizar CSS para crear un menú hamburguesa sin necesidad de utilizar JavaScrip. Todo un reto",
+  date: new Date("2024-01-15"),
+};
+
+const prallax = {
+  id: 14,
+  url: "https://nuria8890.github.io/42_Madrid/discovery_piscine/cell2/ex02/prallax.html",
+  urlCode:
+    "https://github.com/Nuria8890/42_Madrid/tree/main/discovery_piscine/cell2/ex02",
+  photo: PhotoPrallax,
+  tech: "HTML / CSS",
+  title: "Prallax",
+  smallText: "Menú hamburguesa hecho tan solo con HTML y CSS puro",
+  longText:
+    "Con este proyecto he aprendido a utilizar CSS para crear un menú hamburguesa sin necesidad de utilizar JavaScrip. Todo un reto",
+  date: new Date("2024-01-16"),
+};
+
+const backgroundRandom = {
+  id: 15,
+  url: "https://nuria8890.github.io/42_Madrid/discovery_piscine/cell3/ex00/background.html",
+  urlCode:
+    "https://github.com/Nuria8890/42_Madrid/tree/main/discovery_piscine/cell3/ex00",
+  photo: PhotoBgRdm,
+  tech: "JavaScript Vanilla",
+  title: "Background random",
+  smallText: "Menú hamburguesa hecho tan solo con HTML y CSS puro",
+  longText:
+    "Con este proyecto he aprendido a utilizar CSS para crear un menú hamburguesa sin necesidad de utilizar JavaScrip. Todo un reto",
+  date: new Date("2024-01-17"),
+};
+
+const balloon = {
+  id: 16,
+  url: "https://nuria8890.github.io/42_Madrid/discovery_piscine/cell3/ex01/balloon.html",
+  urlCode:
+    "https://github.com/Nuria8890/42_Madrid/tree/main/discovery_piscine/cell3/ex01",
+  photo: PhotoBalloon,
+  tech: "JavaScript Vanilla",
+  title: "Boom Balloon",
+  smallText: "Menú hamburguesa hecho tan solo con HTML y CSS puro",
+  longText:
+    "Con este proyecto he aprendido a utilizar CSS para crear un menú hamburguesa sin necesidad de utilizar JavaScrip. Todo un reto",
+  date: new Date("2024-01-18"),
+};
+
+const calculator = {
+  id: 18,
+  url: "https://nuria8890.github.io/42_Madrid/discovery_piscine/cell3/ex02/calc.html",
+  urlCode:
+    "https://github.com/Nuria8890/42_Madrid/tree/main/discovery_piscine/cell3/ex02",
+  photo: PhotoCalc,
+  tech: "JavaScript Vanilla",
+  title: "Calculadora",
+  smallText: "Menú hamburguesa hecho tan solo con HTML y CSS puro",
+  longText:
+    "Con este proyecto he aprendido a utilizar CSS para crear un menú hamburguesa sin necesidad de utilizar JavaScrip. Todo un reto",
+  date: new Date("2024-01-19"),
+};
+
 /* TODO: 
   - sacar los proyectitos de 42Madrid y de Platzi de cada carpeta para poder crear una url de cada uno
   - terminar los pair programming de aladab y crear las url de cada uno
@@ -205,6 +280,11 @@ const objetProjects = {
   cashCalendar: cashCalendar,
   bolsalea: bolsalea,
   todoList: todoList,
+  burgerMenu: burgerMenu,
+  prallax: prallax,
+  bgRdm: backgroundRandom,
+  balloon: balloon,
+  calc: calculator,
 };
 
 export default objetProjects;
