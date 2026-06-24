@@ -42,7 +42,6 @@
     width: 100%;
     aspect-ratio: 13 / 10;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.05);
   }
 
   &__image {
@@ -120,7 +119,7 @@
     }
 
     &__image {
-      object-fit: fill;
+      object-fit: contain;
     }
 
     &__content {
@@ -154,6 +153,10 @@
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
   }
 
+  &__media {
+    background-color: $bg-light;
+  }
+
   &__content {
     background-color: rgba($surface-light, 0.92);
   }
@@ -168,6 +171,10 @@
   &:hover,
   &:focus-within {
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+  }
+
+  &__media {
+    background-color: $bg-dark;
   }
 
   &__content {
