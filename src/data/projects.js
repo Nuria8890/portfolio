@@ -3,7 +3,7 @@ import PhotoA1Ev from "@/assets/a1Ev.jpeg";
 import PhotoA2Int from "@/assets/a2Int.jpeg";
 import PhotoA2Gru from "@/assets/a2Gru.jpeg";
 import PhotoA2Ev from "@/assets/a2Ev.jpeg";
-import PhotoA3Int from "@/assets/a3Int.jpeg";
+import PhotoA3Int from "@/assets/a3Int.png";
 import PhotoA3y4Gru from "@/assets/a3y4Gru.jpeg";
 import PhotoA3Ev from "@/assets/a3Ev.jpeg";
 import PhotoA4Ev from "@/assets/a4Ev.jpeg";
