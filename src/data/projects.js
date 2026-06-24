@@ -9,6 +9,7 @@ import PhotoA3Ev from "@/assets/a3Ev.jpeg";
 import PhotoA4Ev from "@/assets/a4Ev.jpeg";
 import PhotoCashCalendar from "@/assets/cashCalendar.png";
 import PhotoBolsalea from "@/assets/bolsalea.png";
+import PhotoTodoList from "@/assets/todoList.png";
 
 const adalabModulo1Grupal = {
   id: 1,
@@ -172,6 +173,20 @@ const bolsalea = {
   date: new Date("2025-08-31"),
 };
 
+const todoList = {
+  id: 12,
+  url: "https://nuria8890.github.io/ToDo_list/",
+  urlCode: "https://github.com/Nuria8890/ToDo_list",
+  photo: PhotoTodoList,
+  tech: "React",
+  title: "ToDo List",
+  smallText:
+    "Crea tu lista de tareas para no dejar nada en el olvido.<br/><br/>Proyecto final del curso de React",
+  longText:
+    "En este curso he aprendido a crear aplicaciones web interactivas con React, trabajando con: <br/> - componentes<br/> - props<br/> - estilos CSS<br/> - estados<br/> - efectos<br/> - React Context<br/> - React Portals<br/> - almacenamiento con Local Storage. <br/><br/>El curso ha constado de un total de 34 clases, de las cuales, 9 horas han sido de contenido teórico y 16 horas de práctica.",
+  date: new Date("2024-09-6"),
+};
+
 /* TODO: 
   - sacar los proyectitos de 42Madrid y de Platzi de cada carpeta para poder crear una url de cada uno
   - terminar los pair programming de aladab y crear las url de cada uno
@@ -189,6 +204,7 @@ const objetProjects = {
   a4Ev: adalabModulo4Evaluacion,
   cashCalendar: cashCalendar,
   bolsalea: bolsalea,
+  todoList: todoList,
 };
 
 export default objetProjects;
