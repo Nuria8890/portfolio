@@ -9,6 +9,8 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .mode {
@@ -17,6 +19,7 @@
     color: $text-dark;
     a {
       color: $text-dark;
+      transition: color 0.3s ease;
     }
   }
   &__dark {
@@ -24,6 +27,7 @@
     color: $text-light;
     a {
       color: $text-light;
+      transition: color 0.3s ease;
     }
   }
 }

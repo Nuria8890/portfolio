@@ -20,6 +20,7 @@
     width: 100%;
     color: $text-light;
     text-align: center;
+    animation: fadeInDown 0.5s ease-in-out;
   }
 
   &__title {
@@ -107,5 +108,16 @@
     &__story p {
       font-size: 1.05rem;
     }
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
