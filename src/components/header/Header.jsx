@@ -1,5 +1,6 @@
 import "@/styles/layout/header/Header.scss";
 import logo from "@/assets/antNC.png";
+import logoNegro from "@/assets/antNCnegro.png";
 import Menu_hamburguesa from "./Menu_hamburguesa";
 import Nav_elements from "./Nav_elements";
 import { FaMoon } from "react-icons/fa";
@@ -14,7 +15,11 @@ function Header({
 }) {
   return (
     <header className="header">
-      <img className="header__logo" src={logo} alt="logo clouds" />
+      <img
+        className="header__logo"
+        src={isModeLight ? logo : logoNegro}
+        alt="logo antNC"
+      />
 
       <div className="mode">
         {isModeLight ? (
