@@ -2,6 +2,7 @@
 
 .header {
   background-color: $primary-color;
+  box-shadow: 0 4px 12px $secondary-color;
   display: flex;
   justify-content: space-between;
   align-items: center;

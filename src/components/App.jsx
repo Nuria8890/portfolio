@@ -5,6 +5,7 @@ import AboutMe from "@/components/aboutme/AboutMe";
 import Projects from "@/components/projects/Projects";
 import Contact from "./contact/Contact";
 import Footer from "@/components/footer/Footer";
+import ScrollToTop from "@/components/common/ScrollToTop";
 import { useState } from "react";
 import Project_details from "./projects/Project_details";
 import { Routes, Route } from "react-router";
@@ -12,7 +13,7 @@ import { Routes, Route } from "react-router";
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
-  const [isModeLight, setIsModeLight] = useState(true);
+  const [isModeLight, setIsModeLight] = useState(false);
 
   const [selectedTech, setSelectedTech] = useState("");
 
@@ -116,6 +117,7 @@ function App() {
           </Route>
         </Routes>
       </main>
+      <ScrollToTop />
       <Footer />
     </div>
   );

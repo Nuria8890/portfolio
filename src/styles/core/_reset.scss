@@ -1,3 +1,5 @@
+@import "@/styles/core/variables";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +16,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+strong {
+  color: $secondary-color;
 }
 
 button {

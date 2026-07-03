@@ -1,16 +1,19 @@
-import "@/styles/layout/Footer.scss";
+import "@/styles/layout/footer/Footer.scss";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="footerWip">
-      <p>made by NuriaCD 🐜</p>
-      <div className="footerWip__icons">
+    <footer className="footer">
+      <p>
+        © {new Date().getFullYear()} made by <strong>NuriaCD</strong> 🐜
+      </p>
+      <div className="footer__icons">
         <a
           href="https://github.com/Nuria8890"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub"
         >
           <FaGithub />
         </a>
@@ -19,6 +22,7 @@ function Footer() {
           href="https://www.linkedin.com/in/nuria-8890-cd/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Linkedin"
         >
           <FaLinkedin />
         </a>
