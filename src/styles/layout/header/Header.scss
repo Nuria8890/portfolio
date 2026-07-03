@@ -1,6 +1,8 @@
 @import "@/styles/core/variables";
 
 .header {
+  position: relative;
+  z-index: 1;
   background-color: $primary-color;
   box-shadow: 0 4px 12px $secondary-color;
   display: flex;
