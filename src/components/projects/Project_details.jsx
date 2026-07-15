@@ -13,7 +13,7 @@ function Project_details({ arrayProjects }) {
   if (!selectedProject) {
     return (
       <section className="detailsContainer">
-        <Link to={"/projects"} className="detailsContainer__back">
+        <Link to={"/portfolio/projects"} className="detailsContainer__back">
           <FaArrowLeft aria-hidden="true" />
           <span>Volver</span>
         </Link>
@@ -37,7 +37,7 @@ function Project_details({ arrayProjects }) {
 
   return (
     <section className="detailsContainer">
-      <Link to={"/projects"} className="detailsContainer__back">
+      <Link to={"/portfolio/projects"} className="detailsContainer__back">
         <FaArrowLeft aria-hidden="true" />
         <span>Volver</span>
       </Link>

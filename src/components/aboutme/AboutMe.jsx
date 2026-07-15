@@ -53,10 +53,10 @@ function AboutMe() {
           </div>
 
           <div className="aboutMe__cta">
-            <a className="aboutMe__ctaLink" href="/projects">
+            <a className="aboutMe__ctaLink" href="/portfolio/projects">
               Ver proyectos
             </a>
-            <a className="aboutMe__ctaLink" href="/contact">
+            <a className="aboutMe__ctaLink" href="/portfolio/contact">
               Hablemos
             </a>
           </div>
