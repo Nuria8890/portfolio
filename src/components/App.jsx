@@ -39,17 +39,17 @@ function App() {
     {
       id: "aboutMe",
       name: "Sobre mi",
-      path: "/portfolio",
+      path: "/",
     },
     {
       id: "projects",
       name: "Proyectos",
-      path: "/portfolio/projects",
+      path: "/projects",
     },
     {
       id: "contact",
       name: "Contacta",
-      path: "/portfolio/contact",
+      path: "/contact",
     },
   ];
 
@@ -83,10 +83,10 @@ function App() {
       />
       <main>
         <Routes>
-          <Route path="/portfolio">
+          <Route path="/">
             <Route index element={<AboutMe />} />
           </Route>
-          <Route path="/portfolio/projects">
+          <Route path="/projects">
             <Route
               index
               element={
@@ -98,11 +98,11 @@ function App() {
               }
             />
             <Route
-              path="/portfolio/projects/:idProject"
+              path="/projects/:idProject"
               element={<Project_details arrayProjects={arrayProjects} />}
             />
           </Route>
-          <Route path="/portfolio/contact">
+          <Route path="/contact">
             <Route
               index
               element={
