@@ -1,5 +1,6 @@
 import aboutmeFondo from "@/assets/aboutme_fondo.png";
 import "@/styles/layout/aboutme/AboutMe.scss";
+import { Link } from "react-router";
 
 function AboutMe() {
   return (
@@ -53,12 +54,12 @@ function AboutMe() {
           </div>
 
           <div className="aboutMe__cta">
-            <a className="aboutMe__ctaLink" href="/projects">
+            <Link className="aboutMe__ctaLink" to="/projects">
               Ver proyectos
-            </a>
-            <a className="aboutMe__ctaLink" href="/contact">
+            </Link>
+            <Link className="aboutMe__ctaLink" to="/contact">
               Hablemos
-            </a>
+            </Link>
           </div>
         </section>
       </div>
