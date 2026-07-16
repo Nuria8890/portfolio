@@ -143,7 +143,7 @@ const adalabModulo4Evaluacion = {
   tech: "Base de datos",
   title: "Roller db",
   smallText:
-    "Simulación de una base de datos de una tienda de patines ficticia.<br/><br/>Es un proyecto en solitario realizado en el bootcamp de programación web, tras dos semanas aprendiendo back-end.",
+    "Simulación de una base de datos de una tienda de patines ficticia.",
   longText:
     "Este proyecto es la <strong>evaluación final</strong> tras dos semanas aprendiendo <strong>backend</strong>.<br/><br/>He creado un servidor con <strong>Node.js</strong> y <strong>Express</strong> que gestiona una <strong>API REST</strong> para una tienda ficticia de patines.<br/><br/>El código está organizado de forma modular, con funciones separadas para el manejo de rutas y la lógica de acceso a datos, lo que facilita su lectura y mantenimiento.<br/><br/>A destacar:<br/>- arquitectura separada en rutas, controladores y modelos<br/>- conexión y consultas a base de datos MySQL<br/>- endpoints CRUD (POST, GET, PUT, DELETE)<br/>- validación de datos antes de operar contra la base de datos<br/>- manejo de errores con respuestas adecuadas al cliente<br/><br/>(Bootcamp de Programación Web - Adalab)",
 
