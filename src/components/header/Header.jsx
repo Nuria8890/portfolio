@@ -5,6 +5,7 @@ import Menu_hamburguesa from "./Menu_hamburguesa";
 import Nav_elements from "./Nav_elements";
 import { FaMoon } from "react-icons/fa";
 import { MdSunny } from "react-icons/md";
+import { Link } from "react-router";
 
 function Header({
   handleToggleMenu,
@@ -15,11 +16,13 @@ function Header({
 }) {
   return (
     <header className="header">
-      <img
-        className="header__logo"
-        src={isModeLight ? logo : logoNegro}
-        alt="logo antNC"
-      />
+      <Link to="/projects">
+        <img
+          className="header__logo"
+          src={isModeLight ? logo : logoNegro}
+          alt="logo antNC"
+        />
+      </Link>
 
       <div className="mode">
         {isModeLight ? (
