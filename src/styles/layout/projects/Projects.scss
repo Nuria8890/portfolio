@@ -1,0 +1,17 @@
+@import "@/styles/core/variables";
+
+.projectsCount {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.85;
+
+  @media (min-width: 768px) {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+}

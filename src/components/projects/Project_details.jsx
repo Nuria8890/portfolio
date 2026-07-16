@@ -22,7 +22,7 @@ function Project_details({ arrayProjects }) {
           <img
             src={notFoundImg}
             alt="Proyecto no encontrado"
-            className="detailsContainer__img"
+            className="detailsContainer__img detailsContainer__img__notFound"
           />
 
           <div className="detailsContainer__text">

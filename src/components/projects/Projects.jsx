@@ -1,3 +1,4 @@
+import "@/styles/layout/projects/Projects.scss";
 import Filters from "./filters/Filters";
 import Projects_list from "./Projects_list";
 
@@ -11,6 +12,12 @@ function projects({ arrayProjects, onChangeInputTech, selectedTech }) {
       (project) => project.tech === selectedTech,
     );
   }
+
+  const countText =
+    filteredProjects.length === 1
+      ? "1 proyecto"
+      : `${filteredProjects.length} proyectos`;
+
   return (
     <>
       <Filters
@@ -19,6 +26,9 @@ function projects({ arrayProjects, onChangeInputTech, selectedTech }) {
         selectedTech={selectedTech}
       />
       <section>
+        <p className="projectsCount" aria-live="polite">
+          mostrando {countText}
+        </p>
         <Projects_list filteredProjects={filteredProjects} />
       </section>
     </>

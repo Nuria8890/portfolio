@@ -23,7 +23,6 @@
   }
 
   &__notFound {
-    margin-top: 40px;
     font-size: 1.2rem;
     text-align: center;
   }
@@ -76,12 +75,22 @@
     border-radius: 12px;
     transition: transform 0.4s ease;
 
+    &__notFound {
+      max-width: 280px;
+      margin: 0 auto;
+
+      @media (min-width: 768px) {
+        max-width: 500px;
+      }
+    }
+
     .detailsContainer__imgWrapper:hover & {
       transform: scale(1.05);
     }
   }
 
   &__text {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 12px;
